@@ -1,0 +1,2110 @@
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    optimizemigration
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+Watching for file changes with StatReloader
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+2023-12-05 17:02:44.437269: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Watching for file changes with StatReloader
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+2023-12-05 17:02:52.778102: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Watching for file changes with StatReloader
+Error: That port is already in use.
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+2023-12-05 17:03:04.881900: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Error: That port is already in use.
+[05/Dec/2023 17:03:26] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:03:26] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:03:26] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:03:26] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+Not Found: /js/scripts.js
+[05/Dec/2023 17:03:26] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:03:26] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /favicon.ico
+[05/Dec/2023 17:03:26] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 17:03:27] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:03:27] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:03:28] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+[05/Dec/2023 17:03:28] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:03:28] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:03:28] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:03:28] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:03:29] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:03:29] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:03:29] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:03:29] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 05, 2023 - 17:02:50
+Django version 5.0, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+
+Downloading artifacts:   0%|          | 0/11 [00:00<?, ?it/s]2023/12/05 17:03:37 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+Downloading artifacts:   9%|▉         | 1/11 [00:00<00:00, 4670.72it/s]Downloading artifacts:  18%|█▊        | 2/11 [00:00<00:00, 5486.34it/s]Downloading artifacts:  27%|██▋       | 3/11 [00:00<00:00, 6650.59it/s]Downloading artifacts:  36%|███▋      | 4/11 [00:00<00:00, 7540.32it/s]Downloading artifacts:  45%|████▌     | 5/11 [00:00<00:00, 8250.01it/s]Downloading artifacts:  55%|█████▍    | 6/11 [00:00<00:00, 719.52it/s] Downloading artifacts:  64%|██████▎   | 7/11 [00:00<00:00, 358.02it/s]Downloading artifacts:  73%|███████▎  | 8/11 [00:00<00:00, 396.92it/s]Downloading artifacts:  82%|████████▏ | 9/11 [00:00<00:00, 374.86it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 405.50it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 415.39it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 413.35it/s]
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField Result.pub_date received a naive datetime (2023-12-05 17:03:38.820561) while time zone support is active.
+  warnings.warn(
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 317ms/step
+Downloading artifacts:   0%|          | 0/11 [00:00<?, ?it/s]2023/12/05 17:03:39 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+Downloading artifacts:   9%|▉         | 1/11 [00:00<00:00, 4871.43it/s]Downloading artifacts:  18%|█▊        | 2/11 [00:00<00:00, 6563.86it/s]Downloading artifacts:  27%|██▋       | 3/11 [00:00<00:00, 7328.43it/s]Downloading artifacts:  36%|███▋      | 4/11 [00:00<00:00, 8342.72it/s]Downloading artifacts:  45%|████▌     | 5/11 [00:00<00:00, 1905.98it/s]Downloading artifacts:  55%|█████▍    | 6/11 [00:00<00:00, 144.51it/s] Downloading artifacts:  64%|██████▎   | 7/11 [00:00<00:00, 167.26it/s]Downloading artifacts:  73%|███████▎  | 8/11 [00:00<00:00, 172.00it/s]Downloading artifacts:  82%|████████▏ | 9/11 [00:00<00:00, 190.45it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 202.58it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 210.13it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 209.62it/s]
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField Result.pub_date received a naive datetime (2023-12-05 17:03:39.624437) while time zone support is active.
+  warnings.warn(
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 47ms/step
+Downloading artifacts:   0%|          | 0/11 [00:00<?, ?it/s]2023/12/05 17:03:39 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+Downloading artifacts:   9%|▉         | 1/11 [00:00<00:00, 6647.07it/s]Downloading artifacts:  18%|█▊        | 2/11 [00:00<00:00, 8216.07it/s]Downloading artifacts:  27%|██▋       | 3/11 [00:00<00:00, 9446.63it/s]Downloading artifacts:  36%|███▋      | 4/11 [00:00<00:00, 1934.42it/s]Downloading artifacts:  45%|████▌     | 5/11 [00:00<00:00, 887.38it/s] Downloading artifacts:  55%|█████▍    | 6/11 [00:00<00:00, 87.21it/s] Downloading artifacts:  64%|██████▎   | 7/11 [00:00<00:00, 88.37it/s]Downloading artifacts:  73%|███████▎  | 8/11 [00:00<00:00, 89.14it/s]Downloading artifacts:  82%|████████▏ | 9/11 [00:00<00:00, 91.93it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 97.99it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 97.99it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 97.99it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 101.95it/s]
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField Result.pub_date received a naive datetime (2023-12-05 17:03:40.075496) while time zone support is active.
+  warnings.warn(
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 48ms/step
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField ChatResult.pub_date received a naive datetime (2023-12-05 17:03:40.178495) while time zone support is active.
+  warnings.warn(
+[05/Dec/2023 17:03:46] "POST /signlanguagetochatgpt/chat HTTP/1.1" 200 3491
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:03:46] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Internal Server Error: /signlanguagetochatgpt/chat
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'files'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deploy/mini7/signlanguagetochatgpt/views.py", line 32, in chat
+    if request.method == 'POST' and request.FILES['files']:
+                                    ~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'files'
+[05/Dec/2023 17:03:50] "POST /signlanguagetochatgpt/chat HTTP/1.1" 500 68002
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:03:51] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:03:52] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:03:52] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:03:59] "POST /chatgpt/chat HTTP/1.1" 200 4742
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:03:59] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:04:03] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:04:03] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:04:04] "POST /chatgpt/chat HTTP/1.1" 200 4742
+[05/Dec/2023 17:04:41] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:04:41] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:04:43] "GET / HTTP/1.1" 200 5518
+Not Found: /favicon.ico
+[05/Dec/2023 17:04:43] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 17:04:44] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:04:44] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:04:44] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:04:44] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+Not Found: /js/scripts.js
+[05/Dec/2023 17:04:44] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:04:44] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+[05/Dec/2023 17:04:47] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+[05/Dec/2023 17:04:47] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:04:47] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:04:48] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:04:48] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:04:50] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:04:50] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:04:51] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:04:51] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:04:52] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:04:52] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:04:54] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:04:54] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:04:54] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:04:55] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:04:55] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:04:56] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:04:57] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:04:57] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:04:57] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:04:57] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:04:58] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:04:58] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+Not Found: /js/scripts.js
+[05/Dec/2023 17:04:58] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:04:58] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /favicon.ico
+[05/Dec/2023 17:04:58] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 17:04:59] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:04:59] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Internal Server Error: /signlanguagetochatgpt/chat
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'files'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deploy/mini7/signlanguagetochatgpt/views.py", line 32, in chat
+    if request.method == 'POST' and request.FILES['files']:
+                                    ~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'files'
+[05/Dec/2023 17:05:00] "POST /signlanguagetochatgpt/chat HTTP/1.1" 500 68123
+[05/Dec/2023 17:05:01] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:01] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:01] "GET /chatgpt/ HTTP/1.1" 200 3361
+[05/Dec/2023 17:05:01] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:01] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:02] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Internal Server Error: /signlanguagetochatgpt/chat
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'files'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deploy/mini7/signlanguagetochatgpt/views.py", line 32, in chat
+    if request.method == 'POST' and request.FILES['files']:
+                                    ~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'files'
+[05/Dec/2023 17:05:03] "POST /signlanguagetochatgpt/chat HTTP/1.1" 500 68123
+[05/Dec/2023 17:05:04] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:04] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:05] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:05] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:05] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:07] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:05:07] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:05:07] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:05:07] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:07] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:07] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /favicon.ico
+[05/Dec/2023 17:05:07] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 17:05:09] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:05:09] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:05:09] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:05:09] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+[05/Dec/2023 17:05:09] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:09] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:09] "POST /chatgpt/chat HTTP/1.1" 200 4769
+Not Found: /favicon.ico
+[05/Dec/2023 17:05:09] "GET /favicon.ico HTTP/1.1" 404 2802
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:09] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:11] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:11] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:12] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:12] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:16] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:16] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:16] "GET / HTTP/1.0" 200 5518
+[05/Dec/2023 17:05:16] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+[05/Dec/2023 17:05:17] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:17] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:17] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+[05/Dec/2023 17:05:17] "GET / HTTP/1.0" 200 5518
+[05/Dec/2023 17:05:17] "GET /static/assets/img/01.jpg HTTP/1.0" 200 1974026
+Not Found: /favicon.ico
+[05/Dec/2023 17:05:17] "GET /favicon.ico HTTP/1.0" 404 2802
+Not Found: /favicon.ico
+[05/Dec/2023 17:05:17] "GET /favicon.ico HTTP/1.0" 404 2802
+[05/Dec/2023 17:05:17] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:17] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:18] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:18] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:19] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:19] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:20] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:20] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:21] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+[05/Dec/2023 17:05:21] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:21] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:22] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:22] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:23] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:23] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:25] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:25] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:26] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:26] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:29] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:29] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:33] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:33] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:35] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:05:35] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:05:35] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:05:35] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:35] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:05:35] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /favicon.ico
+[05/Dec/2023 17:05:35] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 17:05:35] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:05:36] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:05:37] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:05:37] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:05:38] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:05:39] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:04] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:06:04] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 17:06:04] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 17:06:04] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+[05/Dec/2023 17:06:05] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:05] "GET /js/scripts.js HTTP/1.1" 404 2808
+Not Found: /favicon.ico
+[05/Dec/2023 17:06:05] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 17:06:05] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:05] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:07] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+[05/Dec/2023 17:06:07] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:07] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:09] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:09] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:10] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:10] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Internal Server Error: /signlanguagetochatgpt/chat
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'files'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deploy/mini7/signlanguagetochatgpt/views.py", line 32, in chat
+    if request.method == 'POST' and request.FILES['files']:
+                                    ~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'files'
+[05/Dec/2023 17:06:13] "POST /signlanguagetochatgpt/chat HTTP/1.1" 500 68028
+[05/Dec/2023 17:06:16] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:16] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:16] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:06:17] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:06:17] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:17] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:18] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:18] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:19] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:06:19] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:06:19] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:19] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:19] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 17:06:19] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:19] "GET /js/scripts.js HTTP/1.1" 404 2808
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:20] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:20] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:06:21] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:06:21] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:21] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:22] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:22] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:23] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:23] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:23] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:06:23] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:06:24] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:24] "GET /static/gpt/style.css HTTP/1.1" 200 1708
+[05/Dec/2023 17:06:24] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:24] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:06:24] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:06:24] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:24] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:06:26] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:26] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:28] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:06:28] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:06:30] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:06:30] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+ChatCompletion(id='chatcmpl-8SKh2ES7DpUfaWm2g1rymUfRhnRdv', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content="I'm sorry, but I'm not sure how to respond to that. Can you provide more information or ask a specific question?", role='assistant', function_call=None, tool_calls=None))], created=1701763420, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=8, total_tokens=34))
+ChatCompletion(id='chatcmpl-8SKhJB2adlekhAJBkiolF2jqCoxZE', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 어떻게 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763437, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=12, total_tokens=34))
+ChatCompletion(id='chatcmpl-8SKhOHFlvzrUwrSPqa1177hZiEEpr', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 어떻게 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763442, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=12, total_tokens=34))
+ChatCompletion(id='chatcmpl-8SKiPoZoNGXsryNvWbvYR3u3H2Oxa', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 저는 AI 비서입니다. 무엇을 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763505, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=12, total_tokens=41))
+Downloading artifacts:   0%|          | 0/11 [00:00<?, ?it/s]2023/12/05 17:06:45 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+Downloading artifacts:   9%|▉         | 1/11 [00:00<00:00, 6000.43it/s]Downloading artifacts:  18%|█▊        | 2/11 [00:00<00:00, 7557.30it/s]Downloading artifacts:  27%|██▋       | 3/11 [00:00<00:00, 8842.52it/s]Downloading artifacts:  36%|███▋      | 4/11 [00:00<00:00, 9467.95it/s]Downloading artifacts:  45%|████▌     | 5/11 [00:00<00:00, 1637.76it/s]Downloading artifacts:  55%|█████▍    | 6/11 [00:00<00:00, 169.08it/s] Downloading artifacts:  64%|██████▎   | 7/11 [00:00<00:00, 173.71it/s]Downloading artifacts:  73%|███████▎  | 8/11 [00:00<00:00, 181.47it/s]Downloading artifacts:  82%|████████▏ | 9/11 [00:00<00:00, 194.68it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 199.38it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 209.31it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 208.77it/s]
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField Result.pub_date received a naive datetime (2023-12-05 17:06:46.071488) while time zone support is active.
+  warnings.warn(
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 79ms/step
+Downloading artifacts:   0%|          | 0/11 [00:00<?, ?it/s]2023/12/05 17:06:46 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+Downloading artifacts:   9%|▉         | 1/11 [00:00<00:00, 5584.96it/s]Downloading artifacts:  18%|█▊        | 2/11 [00:00<00:00, 7313.52it/s]Downloading artifacts:  27%|██▋       | 3/11 [00:00<00:00, 7516.67it/s]Downloading artifacts:  36%|███▋      | 4/11 [00:00<00:00, 920.56it/s] Downloading artifacts:  45%|████▌     | 5/11 [00:00<00:00, 738.67it/s]Downloading artifacts:  55%|█████▍    | 6/11 [00:00<00:00, 179.87it/s]Downloading artifacts:  64%|██████▎   | 7/11 [00:00<00:00, 148.89it/s]Downloading artifacts:  73%|███████▎  | 8/11 [00:00<00:00, 138.46it/s]Downloading artifacts:  82%|████████▏ | 9/11 [00:00<00:00, 128.45it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 141.50it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 146.15it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 145.92it/s]
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField Result.pub_date received a naive datetime (2023-12-05 17:06:46.524413) while time zone support is active.
+  warnings.warn(
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f674ffd4220> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 49ms/step
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField ChatResult.pub_date received a naive datetime (2023-12-05 17:06:46.627696) while time zone support is active.
+  warnings.warn(
+[05/Dec/2023 17:06:47,698] - Broken pipe from ('209.198.250.107', 17658)
+Not Found: /AHytIhNsXATfwcPhDr74W
+[05/Dec/2023 17:06:47] "GET /AHytIhNsXATfwcPhDr74W?k=8x-LYVIJ0.T2kCTEjMPRdgQ5g5F HTTP/1.1" 404 2866
+[05/Dec/2023 17:06:48] "POST /signlanguagetochatgpt/chat HTTP/1.1" 200 3514
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:06:48] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Not Found: /rMVlJIteWy0m7XPqCUymRDiUNMF/0Xe1SFOE9pEb/89PsuwLDaEOX-ZF432kcMDLAHx
+[05/Dec/2023 17:06:50] "GET /rMVlJIteWy0m7XPqCUymRDiUNMF/0Xe1SFOE9pEb/89PsuwLDaEOX-ZF432kcMDLAHx?W7J_=tPG&yN=p HTTP/1.1" 404 2990
+Not Found: /_9DyIBZ7MrbFqz5qbo
+[05/Dec/2023 17:06:50] "GET /_9DyIBZ7MrbFqz5qbo?Ac=ow&iJz6u=qBziLiGCGyS.t7QQkDY5Gl-eCmOyZ&Y1PpZgzOV4DPp2=Zvz0e3&I-E5stqTLM=ym&ye4x41kWKtXFbY=w5B2h&MjV=CyuA_AHPJl- HTTP/1.1" 404 2962
+[05/Dec/2023 17:07:02] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:07:02] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:07:05] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:05] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:05] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:05] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:06] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:06] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:07:06] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:06] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:07:07] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:07] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:08] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:08] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:08] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:08] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:09] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:09] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:10] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:10] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:07:12] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:07:12] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:07:13] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:13] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:07:18] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:07:18] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:07:19] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:07:19] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:07:21] "POST /chatgpt/chat HTTP/1.1" 200 4892
+[05/Dec/2023 17:07:27] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:27] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:07:35] "POST /chatgpt/chat HTTP/1.1" 200 4734
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:35] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+Not Found: /cC-t2gDwQoA4dbKawIuRylr.t
+[05/Dec/2023 17:07:39] "GET /cC-t2gDwQoA4dbKawIuRylr.t?GyRu=Ngl3D5MIH8ROvE&rMip=RJE5557ze6Q&PvbkTY=u HTTP/1.1" 404 2902
+[05/Dec/2023 17:07:43,079] - Broken pipe from ('209.198.250.107', 62992)
+[05/Dec/2023 17:07:44] "POST /chatgpt/chat HTTP/1.1" 200 4734
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:44] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+Not Found: /d32OIAjLVIMWdY7NlhoVvpA/sfkIB3vKoONcIpM-Di4aWWJzf/BKWH8p
+[05/Dec/2023 17:07:44] "GET /d32OIAjLVIMWdY7NlhoVvpA/sfkIB3vKoONcIpM-Di4aWWJzf/BKWH8p HTTP/1.1" 404 2941
+Not Found: /4HpoUAojf/gjcQp1JNNZD_Q8c4OK_eHKh/EMUsl2cEV
+[05/Dec/2023 17:07:47] "GET /4HpoUAojf/gjcQp1JNNZD_Q8c4OK_eHKh/EMUsl2cEV?cWdkZbPBlvWDSO=k0xd0PVjoijZEyj-&D=qc1E&aXCyaA8d=Szb&HDpgR8=7&t=b.VKtE&NIj.Cn=BJ_i HTTP/1.1" 404 3002
+[05/Dec/2023 17:07:52] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:07:52] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:07:56] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:07:56] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:06] "POST /chatgpt/chat HTTP/1.1" 200 4752
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:06] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:15] "POST /chatgpt/chat HTTP/1.1" 200 4783
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:15] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:16] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:16] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:08:20] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:20] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:21] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:21] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:22] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:22] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:23] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:23] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:08:24] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:24] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:25] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:25] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:08:26] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:26] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:27] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:27] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:28] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:28] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:29] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:29] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:08:29] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:29] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:08:31] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:31] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:32] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:32] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:37] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:37] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+Not Found: /V6-MVfGqCRhXtC3gza7/10UyfZgKy/rKHrZLHxjuKIYhVVl4PX-F1de6/tG.Sy7QZxl
+[05/Dec/2023 17:08:38] "GET /V6-MVfGqCRhXtC3gza7/10UyfZgKy/rKHrZLHxjuKIYhVVl4PX-F1de6/tG.Sy7QZxl?ProP.Wy=6ivppWl HTTP/1.1" 404 2990
+Not Found: /EPqDRPfKgs/zV
+[05/Dec/2023 17:08:40] "GET /EPqDRPfKgs/zV?iaYklfgXNkM=n_&0w.k1kmP_GvWGR=iP24_58WrJlOx&nj0WrG=GcndICOBBeQ-XehKG5f83a&rjsgRRvc2J=hpdzq8Ju4EIDFu7uN6e1 HTTP/1.1" 404 2930
+[05/Dec/2023 17:08:40] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:40] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:08:43,994] - Broken pipe from ('209.198.250.107', 11192)
+Not Found: /hQnz7nE_OabvV/qwD8yP9xGGvBbA-cH3hzUIGcSE/B/Sdxqdl6msb
+[05/Dec/2023 17:08:44] "GET /hQnz7nE_OabvV/qwD8yP9xGGvBbA-cH3hzUIGcSE/B/Sdxqdl6msb HTTP/1.1" 404 2930
+[05/Dec/2023 17:08:45] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:45] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:55] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:08:55] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:08:56] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:08:56] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:08:59] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:08:59] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:09:02] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:09:02] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:09:02] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:09:03] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:09:03] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:09:03] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:09:09] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:09:09] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:09:10] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:09:10] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:09:12] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:09:12] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:09:14] "POST /chatgpt/chat HTTP/1.1" 200 4798
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:09:14] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:09:23] "POST /chatgpt/chat HTTP/1.1" 200 4766
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:09:23] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:09:27] "POST /chatgpt/chat HTTP/1.1" 200 4742
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:09:27] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:09:30] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:09:30] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:09:33] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:09:34] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:09:42] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:09:42] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:09:44] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:09:44] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:09:54] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:09:54] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:09:58] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:09:58] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:10:29] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:10:29] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:10:36] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:10:36] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:10:40] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:10:40] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:11:12] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:11:12] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:11:13] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:11:13] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:11:14] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:11:14] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:11:31] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:11:31] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:11:40] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:11:40] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:11:47] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:11:47] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:11:48] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:11:48] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:11:49] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:11:49] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:11:50] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:11:50] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:12:28] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:12:28] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:12:29] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:12:29] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:12:30] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:12:30] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:12:30] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:12:30] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:12:31] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:12:31] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:12:36] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:12:36] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:12:42] "GET /chatgpt/ HTTP/1.1" 200 3361
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 17:12:42] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 17:12:52] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:12:52] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:13:03] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 17:13:03] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 17:13:12] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:13:12] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Not Found: /mw8tKew_CJvqweKtx6rXJ1ib/JPvLWnkJXkR/KqnWkv9o
+[05/Dec/2023 17:13:35] "GET /mw8tKew_CJvqweKtx6rXJ1ib/JPvLWnkJXkR/KqnWkv9o?P6nr=a4HMEOrLS0Y&R=.9&g=.xkq_It56-R&7b7HNr_=WcM8Uz5HZ278-.c6 HTTP/1.1" 404 2981
+Not Found: /-V4u5PqlBYH4RDvx3D4Va/uQlL2WLoqYs-D0lMzlyu
+[05/Dec/2023 17:13:36] "GET /-V4u5PqlBYH4RDvx3D4Va/uQlL2WLoqYs-D0lMzlyu?.12=2lrD0A8cRToOo&f9=qnDHkjw HTTP/1.1" 404 2932
+[05/Dec/2023 17:13:37,894] - Broken pipe from ('209.198.250.107', 55286)
+Not Found: /lREq0
+[05/Dec/2023 17:13:50] "GET /lREq0?65GX09Uy2w6=.f.&QL=uSBX2hDxKKsmCdcPJaWFxmm0U9&T=4QHumW5cnAxJs4lqihH_su1v&I=B9Z&QPPN=idpnnUhRgzc&CQuIR9cemv=Pmyczp HTTP/1.1" 404 2920
+[05/Dec/2023 17:13:58] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:13:58] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:13:58] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:13:58] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:00] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:00] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:00] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:00] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:08] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:08] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:08] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:08] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:09] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:09] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:14] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:14] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:14] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:14] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:14] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:14] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:23] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:23] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:24] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:24] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:24] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:24] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 17:14:29] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 4125
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 17:14:29] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+Not Found: /ywrk9t
+[05/Dec/2023 17:15:57] "POST /ywrk9t HTTP/1.1" 404 2794
+[05/Dec/2023 17:15:57] code 400, message Bad request syntax ('ºz6_')
+[05/Dec/2023 17:15:57] "ºz6_" 400 -
+Not Found: /bwpv6e
+[05/Dec/2023 17:16:13] "POST /bwpv6e HTTP/1.1" 404 2790
+[05/Dec/2023 17:16:13] code 400, message Bad request syntax ('\x19zFõ')
+[05/Dec/2023 17:16:13] "zFõ" 400 -
+Not Found: /47bwj3
+[05/Dec/2023 17:16:32] "POST /47bwj3 HTTP/1.1" 404 2792
+[05/Dec/2023 17:16:32] code 400, message Bad request syntax ('L,ÍÜ')
+[05/Dec/2023 17:16:32] "L,ÍÜ" 400 -
+[05/Dec/2023 17:19:05] "GET / HTTP/1.0" 200 5518
+Not Found: /x9t2sc
+[05/Dec/2023 17:25:27] "POST /x9t2sc HTTP/1.1" 404 2790
+Not Found: /nbvjdz
+[05/Dec/2023 17:25:27] "POST /nbvjdz HTTP/1.1" 404 2790
+Not Found: /86ppnu
+[05/Dec/2023 17:25:27] "POST /86ppnu HTTP/1.1" 404 2790
+Not Found: /wjtm7y
+[05/Dec/2023 17:25:27] "POST /wjtm7y HTTP/1.1" 404 2792
+[05/Dec/2023 17:25:27] code 400, message Bad request syntax ('³]S0')
+[05/Dec/2023 17:25:27] "³]S0" 400 -
+[05/Dec/2023 17:25:27] code 400, message Bad request syntax ('yÙoI')
+[05/Dec/2023 17:25:27] "yÙoI" 400 -
+[05/Dec/2023 17:25:27,376] - Broken pipe from ('46.138.50.68', 2555)
+[05/Dec/2023 17:25:27] code 400, message Bad request syntax ('c(\x95õ')
+[05/Dec/2023 17:25:27] "c(õ" 400 -
+Not Found: /juR9DIU6Pwzpmgi1Fi9iI
+[05/Dec/2023 17:25:35] "GET /juR9DIU6Pwzpmgi1Fi9iI?7C8cp_IR.9.=mfEOgJXrKOP0gzYpGMA&nLwKXs.5Q_nbl0=gG2xTqpC4XYnerlh3-c&wBsm2SBbjppi=urXKTM&0=n&xGKlInYu.OVI=uWlm55uWy8DifqGKY5gi&qPYBu_5gPC2sA=P HTTP/1.1" 404 2995
+Not Found: /ff9b9a
+[05/Dec/2023 17:38:52] "POST /ff9b9a HTTP/1.1" 404 2787
+[05/Dec/2023 17:38:53,405] - Broken pipe from ('209.198.250.97', 20479)
+[05/Dec/2023 17:41:51,726] - Broken pipe from ('171.253.133.240', 3548)
+Not Found: /mbilling/
+[05/Dec/2023 18:01:22] "GET /mbilling/ HTTP/1.0" 404 2796
+Not Found: /J0YwhGnvwD1fP4T_79/wkf0YKpJMRQLsZMH
+[05/Dec/2023 18:15:14] "GET /J0YwhGnvwD1fP4T_79/wkf0YKpJMRQLsZMH HTTP/1.1" 404 2878
+Not Found: /gksv5m
+[05/Dec/2023 18:16:10] "POST /gksv5m HTTP/1.1" 404 2792
+[05/Dec/2023 18:16:14] code 400, message Bad request syntax ('ü\x9e¼\x1c')
+[05/Dec/2023 18:16:14] "ü¼" 400 -
+Not Found: /bdr5sx
+[05/Dec/2023 18:17:46] "POST /bdr5sx HTTP/1.1" 404 2787
+[05/Dec/2023 18:17:48,250] - Broken pipe from ('209.198.250.97', 55809)
+[05/Dec/2023 18:23:19] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 18:23:20,239] - Broken pipe from ('77.141.108.7', 48280)
+Not Found: /Core/Skin/Login.aspx
+[05/Dec/2023 18:30:59] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+Watching for file changes with StatReloader
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+2023-12-05 18:50:46.760729: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Error: That port is already in use.
+[05/Dec/2023 18:52:14,046] - Broken pipe from ('64.88.237.7', 1280)
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    optimizemigration
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+Watching for file changes with StatReloader
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+2023-12-05 18:52:38.790492: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Error: That port is already in use.
+Watching for file changes with StatReloader
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+2023-12-05 18:53:35.146023: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Error: That port is already in use.
+[05/Dec/2023 18:54:26] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 18:54:26] "GET /static/css/styles.css HTTP/1.1" 304 0
+[05/Dec/2023 18:54:26] "GET /static/assets/img/01.jpg HTTP/1.1" 304 0
+[05/Dec/2023 18:54:26] "GET /static/assets/img/02.jpg HTTP/1.1" 304 0
+Not Found: /js/scripts.js
+[05/Dec/2023 18:54:26] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:54:31] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+[05/Dec/2023 18:54:31] "GET /static/gpt/style.css HTTP/1.1" 200 2069
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:54:31] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:54:31] "GET /chatgpt/ HTTP/1.1" 200 3957
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 18:54:31] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 18:54:33] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:54:33] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:54:41] "GET / HTTP/1.0" 200 5518
+[05/Dec/2023 18:54:46] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:54:47] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:54:47] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 18:54:47] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 18:54:48] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+[05/Dec/2023 18:54:48] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+[05/Dec/2023 18:54:54] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+[05/Dec/2023 18:54:55] "GET /static/gpt/style.css HTTP/1.1" 200 2069
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:54:55] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:54:58] "GET /chatgpt/ HTTP/1.1" 200 3957
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 18:54:58] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 18:55:01] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:55:02] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:55:07] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:55:08] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:55:26] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:55:26] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:55:28] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:55:29] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:56:37] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:56:37] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:56:42] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:56:42] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:56:50] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:56:50] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:56:53] "GET /chatgpt/ HTTP/1.1" 200 3957
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 18:56:53] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 18:57:00] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:57:00] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:57:18] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 18:57:19] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:57:19] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:57:22] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:57:22] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:57:25] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:57:26] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+ChatCompletion(id='chatcmpl-8SKk2LhorDknCOD76U77yEvM8O7A9', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='I\'m sorry, but I don\'t understand the context of "aa" in your statement. Could you please provide more information or clarity?', role='assistant', function_call=None, tool_calls=None))], created=1701763606, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=8, total_tokens=36))
+ChatCompletion(id='chatcmpl-8SKkWyARP5XQSaS54zcDyU2MRX9R9', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content="I'm an AI language model developed by OpenAI. I can help you with a wide range of topics and tasks, such as answering questions, providing information, generating text, and more. How can I assist you today?", role='assistant', function_call=None, tool_calls=None))], created=1701763636, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=45, prompt_tokens=7, total_tokens=52))
+ChatCompletion(id='chatcmpl-8SKkm3k5z8SvH1RVS5Rj6AceOImbE', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 무엇을 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763652, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=12, total_tokens=33))
+ChatCompletion(id='chatcmpl-8SKkvlZdVU2RUS3jJJUmRWNcTStbN', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 무엇을 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763661, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=12, total_tokens=33))
+ChatCompletion(id='chatcmpl-8SKlHKaBAT50blX2zW4LePb0xgSrc', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='감사합니다! 저도 노력하고자 노력하겠습니다.', role='assistant', function_call=None, tool_calls=None))], created=1701763683, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=11, total_tokens=35))
+ChatCompletion(id='chatcmpl-8SKlQ20W6KuQMFUolig3vIN5BtjZC', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='감사합니다! 저도 최선을 다해 멋지게 행동하려고 노력하고 있습니다.', role='assistant', function_call=None, tool_calls=None))], created=1701763692, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=34, prompt_tokens=11, total_tokens=45))
+ChatCompletion(id='chatcmpl-8SKmMUsbOXRIk8tSa90RCKWWkLdU7', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 저는 OpenAI의 인공지능 어시스턴트입니다. 무엇을 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763750, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=39, prompt_tokens=12, total_tokens=51))
+ChatCompletion(id='chatcmpl-8SKmWUN99Kg8bG7F4dIt8neL824jv', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 처음 뵙겠습니다. 무엇을 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763760, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=30, prompt_tokens=12, total_tokens=42))
+ChatCompletion(id='chatcmpl-8SKmatYZ1yVuzVrzVab63omqZHpXM', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content='안녕하세요! 어떻게 도와드릴까요?', role='assistant', function_call=None, tool_calls=None))], created=1701763764, model='gpt-3.5-turbo-0613', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=12, total_tokens=34))
+Downloading artifacts:   0%|          | 0/11 [00:00<?, ?it/s]2023/12/05 18:57:41 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+Downloading artifacts:   9%|▉         | 1/11 [00:00<00:00, 5801.25it/s]Downloading artifacts:  18%|█▊        | 2/11 [00:00<00:00, 7364.89it/s]Downloading artifacts:  27%|██▋       | 3/11 [00:00<00:00, 8594.89it/s]Downloading artifacts:  36%|███▋      | 4/11 [00:00<00:00, 8503.40it/s]Downloading artifacts:  45%|████▌     | 5/11 [00:00<00:00, 1883.39it/s]Downloading artifacts:  55%|█████▍    | 6/11 [00:00<00:00, 303.58it/s] Downloading artifacts:  64%|██████▎   | 7/11 [00:00<00:00, 248.51it/s]Downloading artifacts:  73%|███████▎  | 8/11 [00:00<00:00, 221.24it/s]Downloading artifacts:  82%|████████▏ | 9/11 [00:00<00:00, 192.09it/s]Downloading artifacts:  91%|█████████ | 10/11 [00:00<00:00, 210.96it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 216.44it/s]Downloading artifacts: 100%|██████████| 11/11 [00:00<00:00, 215.90it/s]
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField Result.pub_date received a naive datetime (2023-12-05 18:57:42.005323) while time zone support is active.
+  warnings.warn(
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f676657a0c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 187ms/step
+/home/ubuntu/anaconda3/envs/mini7/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1654: RuntimeWarning: DateTimeField ChatResult.pub_date received a naive datetime (2023-12-05 18:57:42.522419) while time zone support is active.
+  warnings.warn(
+[05/Dec/2023 18:57:44] "POST /signlanguagetochatgpt/chat HTTP/1.1" 200 3473
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:57:44] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:57:50] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:57:51] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:57:54] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:57:54] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:57:55] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+[05/Dec/2023 18:57:56] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:57:56] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:57:58] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:57:58] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:58:00] "GET /chatgpt/ HTTP/1.1" 200 3957
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 18:58:00] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 18:58:07] "POST /chatgpt/chat HTTP/1.1" 200 4733
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 18:58:07] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 18:58:38] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 18:58:39] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 18:58:44] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 18:58:44] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 18:59:49] code 400, message Bad request syntax ('test')
+[05/Dec/2023 18:59:49] "test" 400 -
+[05/Dec/2023 18:59:54] code 400, message Bad request syntax ('VERSION')
+[05/Dec/2023 18:59:54] "VERSION" 400 -
+[05/Dec/2023 18:59:59] code 400, message Bad HTTP/0.9 request type ('GIOP\x01\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00')
+[05/Dec/2023 18:59:59] "GIOP              NameService" 400 -
+[05/Dec/2023 18:59:59] "GET / HTTP/1.0" 200 5518
+[05/Dec/2023 19:00:00] "GET / HTTP/1.1" 200 5518
+Not Found: /sitemap.xml
+[05/Dec/2023 19:00:00] "GET /sitemap.xml HTTP/1.1" 404 2805
+Not Found: /robots.txt
+[05/Dec/2023 19:00:00] "GET /robots.txt HTTP/1.1" 404 2802
+Not Found: /usv9m3
+[05/Dec/2023 19:00:42] "POST /usv9m3 HTTP/1.1" 404 2787
+[05/Dec/2023 19:00:47,389] - Broken pipe from ('209.198.250.97', 29867)
+[05/Dec/2023 19:02:01] "GET / HTTP/1.1" 200 5518
+Not Found: /p2m5u3
+[05/Dec/2023 19:02:04] "POST /p2m5u3 HTTP/1.1" 404 2790
+[05/Dec/2023 19:02:09] code 400, message Bad request syntax ('å¶E^')
+[05/Dec/2023 19:02:09] "å¶E^" 400 -
+[05/Dec/2023 19:02:22,750] - Broken pipe from ('209.198.250.97', 17465)
+[05/Dec/2023 19:02:43,089] - Broken pipe from ('209.198.250.97', 39171)
+Not Found: /zgsavp
+[05/Dec/2023 19:03:30] "POST /zgsavp HTTP/1.1" 404 2787
+[05/Dec/2023 19:03:35,901] - Broken pipe from ('209.198.250.97', 63291)
+Not Found: /m82h24
+[05/Dec/2023 19:03:50] "POST /m82h24 HTTP/1.1" 404 2790
+[05/Dec/2023 19:03:53,876] - Broken pipe from ('209.198.250.97', 64684)
+[05/Dec/2023 19:04:03,709] - Broken pipe from ('209.198.250.97', 12651)
+[05/Dec/2023 19:04:17,631] - Broken pipe from ('103.235.94.16', 48050)
+Not Found: /hevrke
+[05/Dec/2023 19:05:41] "POST /hevrke HTTP/1.1" 404 2787
+[05/Dec/2023 19:05:42,903] - Broken pipe from ('209.198.250.97', 36799)
+[05/Dec/2023 19:06:44] "GET / HTTP/1.0" 200 5518
+[05/Dec/2023 19:06:57] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 19:06:58] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 19:07:01] "GET /chatgpt/ HTTP/1.1" 200 3957
+[05/Dec/2023 19:07:01] "GET /static/gpt/style.css HTTP/1.1" 304 0
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 19:07:01] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 19:07:02] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 19:07:02] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 19:07:05] "GET /chatgpt/ HTTP/1.1" 200 3957
+Not Found: /chatgpt/js/scripts.js
+[05/Dec/2023 19:07:05] "GET /chatgpt/js/scripts.js HTTP/1.1" 404 3065
+[05/Dec/2023 19:07:11] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 19:07:11] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 19:07:18] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 19:07:18] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 19:07:20] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 19:07:20] "GET /js/scripts.js HTTP/1.1" 404 2808
+Not Found: /aaxxvm
+[05/Dec/2023 19:14:19] "POST /aaxxvm HTTP/1.1" 404 2787
+[05/Dec/2023 19:14:20,856] - Broken pipe from ('209.198.250.97', 11973)
+[05/Dec/2023 19:23:21] "GET / HTTP/1.1" 200 5518
+Not Found: /js/scripts.js
+[05/Dec/2023 19:23:21] "GET /js/scripts.js HTTP/1.1" 404 2808
+Not Found: /xvexvn
+[05/Dec/2023 19:45:21] "POST /xvexvn HTTP/1.1" 404 2790
+[05/Dec/2023 19:45:21,615] - Broken pipe from ('213.130.112.23', 43900)
+Not Found: /ReportServer
+[05/Dec/2023 19:47:16] "GET /ReportServer HTTP/1.1" 404 2805
+Not Found: /tezgy5
+[05/Dec/2023 20:02:58] "POST /tezgy5 HTTP/1.1" 404 2787
+[05/Dec/2023 20:02:59,420] - Broken pipe from ('209.198.250.97', 27975)
+Not Found: /6cmddu
+[05/Dec/2023 20:04:33] "POST /6cmddu HTTP/1.1" 404 2792
+[05/Dec/2023 20:04:34] code 400, message Bad request syntax ('(î\x1aq')
+[05/Dec/2023 20:04:34] "(îq" 400 -
+Not Found: /z6s3ez
+[05/Dec/2023 20:04:41] "POST /z6s3ez HTTP/1.1" 404 2788
+[05/Dec/2023 20:04:41] code 400, message Bad HTTP/0.9 request type ('l')
+[05/Dec/2023 20:04:41] "lF4" 400 -
+Not Found: /Core/Skin/Login.aspx
+[05/Dec/2023 20:07:48] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+Not Found: /rbe8j9
+[05/Dec/2023 20:11:55] "POST /rbe8j9 HTTP/1.1" 404 2789
+[05/Dec/2023 20:11:56] code 400, message Bad request syntax ('\x9cRÛ3')
+[05/Dec/2023 20:11:56] "RÛ3" 400 -
+Not Found: /dRGdAcPNIc5ZuCAIsx/dCmKCx/Lg3_A5Qp/vu_X6R
+[05/Dec/2023 20:27:23] "GET /dRGdAcPNIc5ZuCAIsx/dCmKCx/Lg3_A5Qp/vu_X6R?Kr8KP=Ta05q6YI_I.BbUqawiFc2TVPUU7p&oKXIo-Zi=jW0IuZ5TU9zC3oXeW-EBV4mKu5pl&_=wv3UbHWJT6Sb&X99Jw=qQgncRAFDvV1mCnRM0&YlMY2874N=4KejumnqqGYHb&fQ=ernYu_Gc7_8QNUW7LkBq.65 HTTP/1.1" 404 3077
+[05/Dec/2023 20:27:23,623] - Broken pipe from ('206.83.107.197', 48466)
+[05/Dec/2023 20:27:23,979] - Broken pipe from ('206.83.107.197', 49214)
+[05/Dec/2023 20:27:24,974] - Broken pipe from ('206.83.107.197', 37158)
+Not Found: /gpqTxsEFK47jWMkj46Y-0f1NEg0r/D9ejg3jfoOoF2Hp3d/bn9RUSadXI0kdfLIKrc5cqzDT-
+[05/Dec/2023 20:43:35] "GET /gpqTxsEFK47jWMkj46Y-0f1NEg0r/D9ejg3jfoOoF2Hp3d/bn9RUSadXI0kdfLIKrc5cqzDT-?.QMSGrvn_jX=mvELGbCYEd9iyslCW6spa&1LE=0540_Zzegr&3s2AQoX3S.gTi-=0MVSx0gC8YPljp8S9hrwcZ8rrXw&Q.3bT8yhml8L=ikZ7t70cJBz8ttJJSLbfLG7i5TX&.WpONcF4de=DR03ssnig HTTP/1.1" 404 3159
+[05/Dec/2023 20:43:36,289] - Broken pipe from ('206.83.107.197', 48702)
+[05/Dec/2023 20:43:36,563] - Broken pipe from ('206.83.107.197', 42880)
+[05/Dec/2023 20:43:37,951] - Broken pipe from ('206.83.107.197', 48150)
+Not Found: /BC
+[05/Dec/2023 20:47:23] "GET /BC?YxwNrTMI3_YIsj=3&Yuj-wo3UfKG=j6pmxy&UYXkQEG3YiLH=FRNs_ujdByZKdDXl16U1lteTq-Wd&jyx2=kYWgRSKkUcij HTTP/1.1" 404 2884
+[05/Dec/2023 20:47:24,737] - Broken pipe from ('206.83.107.197', 37640)
+[05/Dec/2023 20:47:25,016] - Broken pipe from ('206.83.107.197', 42300)
+[05/Dec/2023 20:47:25,819] - Broken pipe from ('206.83.107.197', 46852)
+Not Found: /jFzWggY.hKvaOJY8GoJMF97/tMNwA4hQPNxbK/uRFr6dZ07L4zE75fuGmY4lFyB.7/R7IS4p02Kr5a8
+[05/Dec/2023 20:47:31] "GET /jFzWggY.hKvaOJY8GoJMF97/tMNwA4hQPNxbK/uRFr6dZ07L4zE75fuGmY4lFyB.7/R7IS4p02Kr5a8?dlACiJH6o6HZwY=96A2YbA0JDc_tiXPh-AyTDSg06cj&1=IXpK6xTXN8FtHN0cJ90ALW6U&7=Hr1bjo7lfBXTlZ&z1eBp1TtsA=VLqpR HTTP/1.1" 404 3120
+Not Found: /FdJ1kcXvUIq92utQJX
+[05/Dec/2023 20:47:36] "GET /FdJ1kcXvUIq92utQJX?ksA=uZ-U0UbC4NJaCGhQ._0p&89FrCXx=toRQc37uEMCTl6VkG9-v9sqYRL&gHp9fl=OLwjDIFRD4D HTTP/1.1" 404 2914
+Not Found: /karOTb.KEr5GGcz5cLw
+[05/Dec/2023 20:47:41] "GET /karOTb.KEr5GGcz5cLw?XIFPd0=9ZakQYc61GgW1GdIYVWNW2i&Hw1=zj.rKTe9EnXbu_nOJX5nP9p&fWyi=4Iqix&0Ij=ROjvWLvOXFtRkm HTTP/1.1" 404 2932
+[05/Dec/2023 20:47:41,571] - Broken pipe from ('152.58.212.233', 55917)
+Not Found: /.env
+[05/Dec/2023 20:50:00] "GET /.env HTTP/1.1" 404 2781
+Not Found: /6d6w63
+[05/Dec/2023 20:50:12] "POST /6d6w63 HTTP/1.1" 404 2787
+[05/Dec/2023 20:50:15,643] - Broken pipe from ('209.198.250.97', 51625)
+[05/Dec/2023 20:55:30] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 20:55:30] "GET /static/js/scripts.js HTTP/1.1" 200 333
+Not Found: /js/scripts.js
+[05/Dec/2023 20:55:30] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 20:55:30] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 20:55:30] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+[05/Dec/2023 20:55:30] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+[05/Dec/2023 21:00:15] "GET / HTTP/1.0" 200 5518
+[05/Dec/2023 21:01:45] code 400, message Bad request version ('À\x14À')
+[05/Dec/2023 21:01:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Dec/2023 21:08:23] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 21:08:24] "GET /static/js/scripts.js HTTP/1.1" 200 333
+[05/Dec/2023 21:08:24] "GET /static/css/styles.css HTTP/1.1" 200 239327
+Not Found: /js/scripts.js
+[05/Dec/2023 21:08:24] "GET /static/assets/img/02.jpg HTTP/1.1" 200 157710
+[05/Dec/2023 21:08:24] "GET /js/scripts.js HTTP/1.1" 404 2808
+[05/Dec/2023 21:08:24] "GET /static/assets/img/01.jpg HTTP/1.1" 200 1974026
+Not Found: /favicon.ico
+[05/Dec/2023 21:08:25] "GET /favicon.ico HTTP/1.1" 404 2802
+[05/Dec/2023 21:20:00,312] - Broken pipe from ('172.104.210.105', 37819)
+[05/Dec/2023 21:20:06] "GET / HTTP/1.1" 200 5518
+[05/Dec/2023 21:20:13,738] - Broken pipe from ('172.104.210.105', 37820)
+[05/Dec/2023 21:20:42] "GET / HTTP/1.1" 200 5518
+Not Found: /999qjs
+[05/Dec/2023 21:33:09] "POST /999qjs HTTP/1.1" 404 2787
+[05/Dec/2023 21:33:11,576] - Broken pipe from ('209.198.250.97', 9546)
+Not Found: /3tta9h
+[05/Dec/2023 21:37:29] "POST /3tta9h HTTP/1.1" 404 2787
+[05/Dec/2023 21:37:30,407] - Broken pipe from ('209.198.250.97', 42881)
+[05/Dec/2023 21:39:26] "GET / HTTP/1.0" 200 5518
+Not Found: /x6kka6
+[05/Dec/2023 21:40:55] "POST /x6kka6 HTTP/1.1" 404 2787
+[05/Dec/2023 21:40:57,062] - Broken pipe from ('209.198.250.97', 27084)
+[05/Dec/2023 21:41:40,151] - Broken pipe from ('206.83.107.197', 48626)
+[05/Dec/2023 21:41:40,742] - Broken pipe from ('206.83.107.197', 49480)
+Not Found: /6Tg8Bu./tOdRh-dnG59R7d0I/uxB9Vp6qjW9K
+[05/Dec/2023 21:41:41] "GET /6Tg8Bu./tOdRh-dnG59R7d0I/uxB9Vp6qjW9K?ymiP=VRBdA8FFI&n_6Ugve7dn4=mhrjfF.S7.1Y.G8zvii42Cjsq29&vlNBUpAxoe23=w-mYc9A4vknBs4r9G8qetpCrz&FaH_=QeZ5 HTTP/1.1" 404 2997
+[05/Dec/2023 21:41:41,503] - Broken pipe from ('206.83.107.197', 37256)
+Not Found: /Core/Skin/Login.aspx
+[05/Dec/2023 21:44:58] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+Not Found: /g6Prxw--Ck7jnza/A7iLo2-Dcv89_jLWJutF6o2yZL/mJuaRLIFL3W
+[05/Dec/2023 21:48:13] "GET /g6Prxw--Ck7jnza/A7iLo2-Dcv89_jLWJutF6o2yZL/mJuaRLIFL3W?phN18ibFo=k7b4467ndFwHqEOSkQl_BR&Q94fCpTcp=1UNh_xYxg&68A8szWgkbpRM=LJXwYCw&._F-RCmS230=AlZUnlxGVZg8Q HTTP/1.1" 404 3048
+[05/Dec/2023 21:48:13,394] - Broken pipe from ('209.198.250.107', 16766)
+Not Found: /_Uo8ubREm4W09hT/KviPO41
+[05/Dec/2023 21:48:13] "GET /_Uo8ubREm4W09hT/KviPO41 HTTP/1.1" 404 2842
+Not Found: /.Dx-K1pL2sFt9D
+[05/Dec/2023 21:48:18] "GET /.Dx-K1pL2sFt9D?u=XzHi1wlfS8vEhb&Qq=Ra7M.L9D6KAcMwz&8tc-yJDu=V0cR5vOJ0.42NKswE HTTP/1.1" 404 2884
+[05/Dec/2023 21:53:29,038] - Broken pipe from ('129.222.249.90', 29578)
+Not Found: /OTS9hOEsSq5-zleD8zkVNj_nKW1/OZB4O-_0LQmICRk
+[05/Dec/2023 21:53:29] "GET /OTS9hOEsSq5-zleD8zkVNj_nKW1/OZB4O-_0LQmICRk HTTP/1.1" 404 2902
+Not Found: /_vEEJvinf4ro.RiN
+[05/Dec/2023 21:53:30] "GET /_vEEJvinf4ro.RiN?JOn=vVWfTu0z.-sCV.7g24.swJdI82s HTTP/1.1" 404 2851
+Not Found: /Jv2
+[05/Dec/2023 21:53:34] "GET /Jv2?-G58PLst=ZRjV.sUAJ&IoUJj7yhY=pH.c_u.O5&W=SeQkVlebDsD8Mtv8 HTTP/1.1" 404 2848
+Not Found: /hfxv68
+[05/Dec/2023 21:58:39] "POST /hfxv68 HTTP/1.1" 404 2787
+[05/Dec/2023 21:58:40,899] - Broken pipe from ('209.198.250.97', 18125)
+[05/Dec/2023 22:03:27] "GET /signlanguagetochatgpt/ HTTP/1.1" 200 5059
+[05/Dec/2023 22:03:28] "GET /static/css/styles.css HTTP/1.1" 200 239327
+[05/Dec/2023 22:03:28] "GET /static/js/scripts.js HTTP/1.1" 200 333
+Not Found: /signlanguagetochatgpt/js/scripts.js
+[05/Dec/2023 22:03:28] "GET /signlanguagetochatgpt/js/scripts.js HTTP/1.1" 404 3121
+[05/Dec/2023 22:03:28] "GET /static/gpt/style.css HTTP/1.1" 200 2069
+Not Found: /.env
+[05/Dec/2023 22:15:17] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[05/Dec/2023 22:15:18] "POST / HTTP/1.1" 403 2999
+Not Found: /ADImtZFQpNzmX3rJhcBKkp8wNW/3wKq1koulUhPQ1qtaZAQBD/EDQQ08qs_3L5bO
+[05/Dec/2023 22:16:19] "GET /ADImtZFQpNzmX3rJhcBKkp8wNW/3wKq1koulUhPQ1qtaZAQBD/EDQQ08qs_3L5bO?.H9R=omWhKqiBg7F8-q4gmwhME-fW__hFP&vDkyI4=sggorGAZx91FyhdtE-2W&0WlZVFoZkA=r282-&juR=2kciCZ4Cc8rprGUYniHrpy3zQmB&tF4Do-ILH0=OJPkchk0GkF1hxjGiMQ-Wq5cyF HTTP/1.1" 404 3128
+[05/Dec/2023 22:16:19,816] - Broken pipe from ('206.83.107.197', 42022)
+[05/Dec/2023 22:16:20,172] - Broken pipe from ('206.83.107.197', 38850)
+[05/Dec/2023 22:16:21,340] - Broken pipe from ('206.83.107.197', 47890)
+Not Found: /4mrcvu
+[05/Dec/2023 22:32:53] "POST /4mrcvu HTTP/1.1" 404 2787
+[05/Dec/2023 22:32:55,065] - Broken pipe from ('209.198.250.97', 9941)
+Not Found: /h3s3sr
+[05/Dec/2023 22:33:29] "POST /h3s3sr HTTP/1.1" 404 2787
+[05/Dec/2023 22:33:31,504] - Broken pipe from ('209.198.250.97', 61279)
+Not Found: /p75gq7
+[05/Dec/2023 22:34:00] "POST /p75gq7 HTTP/1.1" 404 2787
+[05/Dec/2023 22:34:01,502] - Broken pipe from ('209.198.250.97', 25125)
+Not Found: /37btnf
+[05/Dec/2023 22:34:30] "POST /37btnf HTTP/1.1" 404 2787
+Not Found: /.env
+[05/Dec/2023 22:34:30] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[05/Dec/2023 22:34:31] "POST / HTTP/1.1" 403 2999
+[05/Dec/2023 22:34:31,929] - Broken pipe from ('209.198.250.97', 39955)
+Not Found: /s7nymw
+[05/Dec/2023 22:36:12] "POST /s7nymw HTTP/1.1" 404 2787
+[05/Dec/2023 22:36:14,023] - Broken pipe from ('209.198.250.97', 65126)
+Not Found: /85jxf3
+[05/Dec/2023 22:39:34] "POST /85jxf3 HTTP/1.1" 404 2787
+[05/Dec/2023 22:39:36,147] - Broken pipe from ('209.198.250.97', 26947)
+Not Found: /dqkdyn
+[05/Dec/2023 22:39:56] "POST /dqkdyn HTTP/1.1" 404 2787
+[05/Dec/2023 22:39:57,265] - Broken pipe from ('209.198.250.97', 44325)
+[05/Dec/2023 22:41:24,390] - Broken pipe from ('114.10.30.108', 10138)
+[05/Dec/2023 22:41:26,306] - Broken pipe from ('114.10.30.108', 10140)
+[05/Dec/2023 22:41:26,313] - Broken pipe from ('114.10.30.108', 65181)
+[05/Dec/2023 22:41:26,993] - Broken pipe from ('114.10.30.108', 65183)
+[05/Dec/2023 22:41:27,591] - Broken pipe from ('114.10.30.108', 65182)
+[05/Dec/2023 22:43:07,264] - Broken pipe from ('114.10.75.67', 25876)
+[05/Dec/2023 22:43:07,275] - Broken pipe from ('114.10.75.67', 25875)
+[05/Dec/2023 22:43:07,286] - Broken pipe from ('114.10.75.67', 45218)
+[05/Dec/2023 22:43:10,517] - Broken pipe from ('114.10.75.67', 45219)
+[05/Dec/2023 22:43:14,357] - Broken pipe from ('114.10.75.67', 45220)
+[05/Dec/2023 22:43:14,366] - Broken pipe from ('114.10.75.67', 25878)
+[05/Dec/2023 22:43:14,377] - Broken pipe from ('114.10.75.67', 25877)
+[05/Dec/2023 22:43:14,920] - Broken pipe from ('114.10.75.67', 45221)
+Not Found: /8vuqdt
+[05/Dec/2023 22:43:34] "POST /8vuqdt HTTP/1.1" 404 2787
+[05/Dec/2023 22:43:36,429] - Broken pipe from ('209.198.250.97', 17021)
+Not Found: /.git/config
+[05/Dec/2023 22:43:48] "GET /.git/config HTTP/1.1" 404 2802
+Not Found: /.git/config
+[05/Dec/2023 22:43:49] "GET /.git/config HTTP/1.1" 404 2802
+Not Found: /.git/config
+[05/Dec/2023 22:43:53] "GET /.git/config HTTP/1.1" 404 2802
+Not Found: /.git/config
+[05/Dec/2023 22:43:54] "GET /.git/config HTTP/1.1" 404 2802
+[05/Dec/2023 22:44:30,121] - Broken pipe from ('114.10.75.67', 45226)
+[05/Dec/2023 22:44:30,132] - Broken pipe from ('114.10.75.67', 45227)
+[05/Dec/2023 22:44:30,633] - Broken pipe from ('114.10.75.67', 25881)
+[05/Dec/2023 22:44:33,180] - Broken pipe from ('114.10.75.67', 45228)
+[05/Dec/2023 22:47:05,624] - Broken pipe from ('114.10.118.195', 16694)
+[05/Dec/2023 22:47:05,681] - Broken pipe from ('114.10.118.195', 44973)
+[05/Dec/2023 22:47:05,698] - Broken pipe from ('114.10.118.195', 44974)
+[05/Dec/2023 22:47:05,715] - Broken pipe from ('114.10.118.195', 16695)
+[05/Dec/2023 22:47:10,990] - Broken pipe from ('114.10.118.195', 44975)
+[05/Dec/2023 22:47:11,028] - Broken pipe from ('114.10.118.195', 44976)
+[05/Dec/2023 22:47:11,075] - Broken pipe from ('114.10.118.195', 44978)
+[05/Dec/2023 22:47:11,189] - Broken pipe from ('114.10.118.195', 44977)
+Not Found: /snnmu4
+[05/Dec/2023 22:47:30] "POST /snnmu4 HTTP/1.1" 404 2787
+[05/Dec/2023 22:47:31,690] - Broken pipe from ('209.198.250.97', 56619)
+Not Found: /xj3dj8
+[05/Dec/2023 22:47:51] "POST /xj3dj8 HTTP/1.1" 404 2787
+[05/Dec/2023 22:47:53,184] - Broken pipe from ('209.198.250.97', 27937)
+Not Found: /xcsng6
+[05/Dec/2023 22:50:35] "POST /xcsng6 HTTP/1.1" 404 2787
+[05/Dec/2023 22:50:37,503] - Broken pipe from ('209.198.250.97', 41588)
+Not Found: /yzth83
+[05/Dec/2023 22:54:05] "POST /yzth83 HTTP/1.1" 404 2787
+[05/Dec/2023 22:54:06,876] - Broken pipe from ('209.198.250.97', 64536)
+Not Found: /v8u7zr
+[05/Dec/2023 22:57:39] "POST /v8u7zr HTTP/1.1" 404 2787
+[05/Dec/2023 22:57:41,042] - Broken pipe from ('209.198.250.97', 61989)
+Not Found: /e3k3mq
+[05/Dec/2023 23:00:36] "POST /e3k3mq HTTP/1.1" 404 2787
+[05/Dec/2023 23:00:37,294] - Broken pipe from ('209.198.250.97', 29430)
+Not Found: /shsdv7
+[05/Dec/2023 23:04:41] "POST /shsdv7 HTTP/1.1" 404 2787
+[05/Dec/2023 23:04:42,373] - Broken pipe from ('209.198.250.97', 46724)
+Not Found: /a92tme
+[05/Dec/2023 23:05:05] "POST /a92tme HTTP/1.1" 404 2787
+[05/Dec/2023 23:05:06,421] - Broken pipe from ('209.198.250.97', 54091)
+Not Found: /fnf4t8
+[05/Dec/2023 23:08:36] "POST /fnf4t8 HTTP/1.1" 404 2787
+[05/Dec/2023 23:08:37,402] - Broken pipe from ('209.198.250.97', 54955)
+Not Found: /66ys9w
+[05/Dec/2023 23:11:13] "POST /66ys9w HTTP/1.1" 404 2790
+[05/Dec/2023 23:11:13] code 400, message Bad request syntax ('Ñ\x13<K')
+[05/Dec/2023 23:11:13] "Ñ<K" 400 -
+Not Found: /evxd4p
+[05/Dec/2023 23:12:16] "POST /evxd4p HTTP/1.1" 404 2790
+[05/Dec/2023 23:12:25] code 400, message Bad request syntax ('/°Eo')
+[05/Dec/2023 23:12:25] "/°Eo" 400 -
+Not Found: /8742qe
+[05/Dec/2023 23:14:01] "POST /8742qe HTTP/1.1" 404 2787
+[05/Dec/2023 23:14:03,048] - Broken pipe from ('209.198.250.97', 59091)
+[05/Dec/2023 23:14:30] "GET / HTTP/1.0" 200 5518
+Not Found: /2ffgu8
+[05/Dec/2023 23:15:02] "POST /2ffgu8 HTTP/1.1" 404 2787
+[05/Dec/2023 23:15:03,607] - Broken pipe from ('209.198.250.97', 27306)
+Not Found: /zcduaa
+[05/Dec/2023 23:15:24] "POST /zcduaa HTTP/1.1" 404 2787
+[05/Dec/2023 23:15:26,151] - Broken pipe from ('209.198.250.97', 25066)
+Not Found: /wy2a6u
+[05/Dec/2023 23:15:49] "POST /wy2a6u HTTP/1.1" 404 2787
+[05/Dec/2023 23:15:50,815] - Broken pipe from ('209.198.250.97', 56858)
+Not Found: /pae5d2
+[05/Dec/2023 23:16:22] "POST /pae5d2 HTTP/1.1" 404 2787
+[05/Dec/2023 23:16:22,687] - Broken pipe from ('209.198.250.97', 34714)
+Not Found: /qjurr7
+[05/Dec/2023 23:16:47] "POST /qjurr7 HTTP/1.1" 404 2787
+[05/Dec/2023 23:16:48,440] - Broken pipe from ('209.198.250.97', 59484)
+Not Found: /4axx9a
+[05/Dec/2023 23:17:31] "POST /4axx9a HTTP/1.1" 404 2787
+[05/Dec/2023 23:17:33,301] - Broken pipe from ('209.198.250.97', 12862)
+Not Found: /8aquk6
+[05/Dec/2023 23:18:05] "POST /8aquk6 HTTP/1.1" 404 2787
+[05/Dec/2023 23:18:06,713] - Broken pipe from ('209.198.250.97', 32885)
+Not Found: /U/VXGaYWE13F/D2g
+[05/Dec/2023 23:22:20] "GET /U/VXGaYWE13F/D2g?.Z0apY_U=JIuiH&37PEkFxK=rUftB7b4&F=NFmwU0 HTTP/1.1" 404 2868
+[05/Dec/2023 23:22:20,955] - Broken pipe from ('206.83.107.197', 37980)
+[05/Dec/2023 23:22:21,139] - Broken pipe from ('206.83.107.197', 38546)
+[05/Dec/2023 23:22:22,207] - Broken pipe from ('206.83.107.197', 39510)
+Not Found: /Core/Skin/Login.aspx
+[05/Dec/2023 23:23:10] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+[05/Dec/2023 23:31:25,062] - Broken pipe from ('206.83.107.197', 46952)
+Not Found: /Nz
+[05/Dec/2023 23:31:25] "GET /Nz?jWLOcfsCll=c9B2M9V7.k&GF8YN-BBj=J4OXWC-VzFRDPUvs_wYDeQm5U&xc-63m=1&81j26=-.trOg52C HTTP/1.1" 404 2871
+[05/Dec/2023 23:31:25,296] - Broken pipe from ('206.83.107.197', 45034)
+[05/Dec/2023 23:31:26,264] - Broken pipe from ('206.83.107.197', 37196)
+[05/Dec/2023 23:38:04,904] - Broken pipe from ('5.121.224.239', 19134)
+[05/Dec/2023 23:38:25,459] - Broken pipe from ('5.121.224.239', 19135)
+Not Found: /nfngnc
+[05/Dec/2023 23:42:21] "POST /nfngnc HTTP/1.1" 404 2787
+[05/Dec/2023 23:42:23,040] - Broken pipe from ('209.198.250.97', 62536)
+Not Found: /bV0gmHVBsaD
+[05/Dec/2023 23:49:50] "GET /bV0gmHVBsaD?GYii6Lsh=bS2p&-0v-mAEnS=DgXy8g8FvYtRWmnEj HTTP/1.1" 404 2852
+Not Found: /9LiW1jgoG2niEMGWiNHe
+[05/Dec/2023 23:49:50] "GET /9LiW1jgoG2niEMGWiNHe?aaf5Yh=oSUpmo-ESXnAXE3g&L-=p0DLEeeAOHBfTaI8qjvo&7L5RuBUWChgw=Q1hCK0e6FiKNUyYFB05w1eihK-K7A&Mj3=vLH7xEB7nN.aCNI7 HTTP/1.1" 404 2957
+Not Found: /DZvXnyfwX_k6cIFJtINJzNBiy5GQ/U3-ZZmD.XbPddTWNgk4/OT
+[06/Dec/2023 00:09:30] "GET /DZvXnyfwX_k6cIFJtINJzNBiy5GQ/U3-ZZmD.XbPddTWNgk4/OT HTTP/1.1" 404 2924
+Not Found: /h58nuz
+[06/Dec/2023 00:22:50] "POST /h58nuz HTTP/1.1" 404 2787
+[06/Dec/2023 00:22:51,519] - Broken pipe from ('209.198.250.97', 29184)
+Not Found: /d6qssh
+[06/Dec/2023 00:23:11] "POST /d6qssh HTTP/1.1" 404 2787
+[06/Dec/2023 00:23:12,299] - Broken pipe from ('209.198.250.97', 10126)
+Not Found: /r8puch
+[06/Dec/2023 00:27:02] "POST /r8puch HTTP/1.1" 404 2787
+[06/Dec/2023 00:27:04,379] - Broken pipe from ('209.198.250.97', 51430)
+[06/Dec/2023 00:29:42] "GET / HTTP/1.0" 200 5518
+Not Found: /aunmk4
+[06/Dec/2023 00:30:22] "POST /aunmk4 HTTP/1.1" 404 2787
+[06/Dec/2023 00:30:23,995] - Broken pipe from ('209.198.250.97', 57732)
+Not Found: /e7dt38
+[06/Dec/2023 00:33:33] "POST /e7dt38 HTTP/1.1" 404 2787
+[06/Dec/2023 00:33:33] code 400, message Bad request syntax ('³,H')
+[06/Dec/2023 00:33:33] "³,H" 400 -
+Not Found: /pcjh2x
+[06/Dec/2023 00:36:06] "POST /pcjh2x HTTP/1.1" 404 2792
+Not Found: /3cntkx
+[06/Dec/2023 00:36:07] "POST /3cntkx HTTP/1.1" 404 2791
+[06/Dec/2023 00:36:07] code 400, message Bad request syntax ('\x1bp')
+[06/Dec/2023 00:36:07] "p" 400 -
+Not Found: /79w34v
+[06/Dec/2023 00:36:07] "POST /79w34v HTTP/1.1" 404 2790
+Not Found: /egpzhf
+[06/Dec/2023 00:37:02] "POST /egpzhf HTTP/1.1" 404 2787
+[06/Dec/2023 00:37:03,897] - Broken pipe from ('209.198.250.97', 46354)
+Not Found: /3zbrhs
+[06/Dec/2023 00:40:17] "POST /3zbrhs HTTP/1.1" 404 2787
+[06/Dec/2023 00:40:21,239] - Broken pipe from ('209.198.250.97', 29107)
+Not Found: /7hqjt9
+[06/Dec/2023 00:41:09] "POST /7hqjt9 HTTP/1.1" 404 2787
+[06/Dec/2023 00:41:12,329] - Broken pipe from ('209.198.250.97', 13400)
+Not Found: /uzkcmn
+[06/Dec/2023 00:41:28] "POST /uzkcmn HTTP/1.1" 404 2787
+[06/Dec/2023 00:41:29,284] - Broken pipe from ('209.198.250.97', 57156)
+Not Found: /z358mc
+[06/Dec/2023 00:41:44] "POST /z358mc HTTP/1.1" 404 2787
+[06/Dec/2023 00:41:45,769] - Broken pipe from ('209.198.250.97', 22891)
+Not Found: /28gejv
+[06/Dec/2023 00:44:52] "POST /28gejv HTTP/1.1" 404 2787
+[06/Dec/2023 00:44:54,724] - Broken pipe from ('209.198.250.97', 19950)
+Not Found: /nzqxjj
+[06/Dec/2023 00:48:03] "POST /nzqxjj HTTP/1.1" 404 2787
+[06/Dec/2023 00:48:04,336] - Broken pipe from ('209.198.250.97', 12412)
+Not Found: /m3hytt
+[06/Dec/2023 00:50:55] "POST /m3hytt HTTP/1.1" 404 2791
+[06/Dec/2023 00:50:55] code 400, message Bad request syntax ('\x15uÊ7')
+[06/Dec/2023 00:50:55] "uÊ7" 400 -
+Not Found: /uq8mdy
+[06/Dec/2023 00:51:00] "POST /uq8mdy HTTP/1.1" 404 2790
+[06/Dec/2023 00:51:00] code 400, message Bad request syntax ('\x17\x03;Ú')
+[06/Dec/2023 00:51:00] ";Ú" 400 -
+[06/Dec/2023 00:51:00,891] - Broken pipe from ('5.22.102.13', 50890)
+Not Found: /UFZeaCdJx-q_U1YK/T1
+[06/Dec/2023 00:51:05] "GET /UFZeaCdJx-q_U1YK/T1?C7slCgzVmS=2q4jrdwYlj&3.uSQuhpGYa=3qR-js54q9L4 HTTP/1.1" 404 2880
+Not Found: /yrchqWOhNAUu_r5a.JKhTaZRc/zlsxH2iRrfk-AMGvK1F3p/HONRqCEtd6Mq.fpvjYMVc4GOuD_o/IYmN
+[06/Dec/2023 00:51:14] "GET /yrchqWOhNAUu_r5a.JKhTaZRc/zlsxH2iRrfk-AMGvK1F3p/HONRqCEtd6Mq.fpvjYMVc4GOuD_o/IYmN?z0wk=cGIf9hFwoQTdPV7.yp&uRa7=Ken2&bI5uW=H-JT6z-19xMF5&1zwYeXb-=d86Lozs6uD.4wZT_XZ HTTP/1.1" 404 3108
+Not Found: /.awscodecommit
+[06/Dec/2023 00:51:38] "GET /.awscodecommit HTTP/1.1" 404 2811
+Not Found: /kkg8bf
+[06/Dec/2023 00:51:48] "POST /kkg8bf HTTP/1.1" 404 2787
+[06/Dec/2023 00:51:49,801] - Broken pipe from ('209.198.250.97', 38438)
+Not Found: /85z552
+[06/Dec/2023 00:52:13] "POST /85z552 HTTP/1.1" 404 2787
+[06/Dec/2023 00:52:15,052] - Broken pipe from ('209.198.250.97', 42816)
+Not Found: /uh9s6c
+[06/Dec/2023 00:53:17] "POST /uh9s6c HTTP/1.1" 404 2787
+[06/Dec/2023 00:53:19,002] - Broken pipe from ('209.198.250.97', 20026)
+Not Found: /xsd4jp
+[06/Dec/2023 00:54:03] "POST /xsd4jp HTTP/1.1" 404 2787
+[06/Dec/2023 00:54:04,701] - Broken pipe from ('209.198.250.97', 41823)
+Not Found: /dbys34
+[06/Dec/2023 00:54:26] "POST /dbys34 HTTP/1.1" 404 2787
+[06/Dec/2023 00:54:27,375] - Broken pipe from ('209.198.250.97', 63543)
+Not Found: /7ve4sp
+[06/Dec/2023 00:54:47] "POST /7ve4sp HTTP/1.1" 404 2787
+[06/Dec/2023 00:54:48,289] - Broken pipe from ('209.198.250.97', 64195)
+Not Found: /7yhn2z
+[06/Dec/2023 00:55:44] "POST /7yhn2z HTTP/1.1" 404 2787
+[06/Dec/2023 00:55:46,607] - Broken pipe from ('209.198.250.97', 43337)
+Not Found: /9kwesj
+[06/Dec/2023 00:56:09] "POST /9kwesj HTTP/1.1" 404 2787
+[06/Dec/2023 00:56:10,644] - Broken pipe from ('209.198.250.97', 64005)
+Not Found: /Core/Skin/Login.aspx
+[06/Dec/2023 01:02:00] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+[06/Dec/2023 01:06:14] "GET / HTTP/1.1" 200 5518
+Not Found: /.env
+[06/Dec/2023 01:07:28] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 01:07:29] "POST / HTTP/1.1" 403 2999
+Not Found: /m4g3vp
+[06/Dec/2023 01:13:39] "POST /m4g3vp HTTP/1.1" 404 2790
+[06/Dec/2023 01:13:39] code 400, message Bad request syntax ('\\\x8ds¶')
+[06/Dec/2023 01:13:39] "\s¶" 400 -
+Not Found: /6rgab8
+[06/Dec/2023 01:17:26] "POST /6rgab8 HTTP/1.1" 404 2787
+[06/Dec/2023 01:17:27,422] - Broken pipe from ('209.198.250.97', 10132)
+Not Found: /chehg3
+[06/Dec/2023 01:17:45] "POST /chehg3 HTTP/1.1" 404 2787
+[06/Dec/2023 01:17:46,647] - Broken pipe from ('209.198.250.97', 20011)
+Not Found: /EFsoaKoAy/t4VWqZFw/gBGf5k6WBXe0TI
+[06/Dec/2023 01:36:46] "GET /EFsoaKoAy/t4VWqZFw/gBGf5k6WBXe0TI?5l_qA7=xj5uwlf2qqmF&mMWbuJKyzS7Lq=vZ.&zOS=62fkg2rYbZ1G&qICVQk1vEc-sup=IahA6LsCz3M&djl7h.MRpRm=MxUuXo8Pw4tsSqIZ&X_N7CmGfmczCi0=aU0fLlMu HTTP/1.1" 404 3027
+Not Found: /9ccuDiKh.VvDBhDX5QPM
+[06/Dec/2023 01:36:46] "GET /9ccuDiKh.VvDBhDX5QPM?sbIphcIUu=UeG8G1TeCHMVryWZbD&f2_lT0eRFgeF=0DQWtqDlqcZw&hp=9Z97H&.uZHkB=quOFxM81btjmF8qpiI9ewM3ZNRjP9&Nclku1sPD=GFyFRSuWgBemO9rzqioU2ULNaj HTTP/1.1" 404 2985
+Not Found: /iuu
+[06/Dec/2023 01:36:49] "GET /iuu?0HHN6j8vh=r2j6&6K4x=QUAbOBFxJMd0&sQ4ED3jSnC3D=c&x=5_MgQR58jP HTTP/1.1" 404 2855
+[06/Dec/2023 01:36:49,635] - Broken pipe from ('129.222.33.176', 12817)
+[06/Dec/2023 01:39:33,618] - Broken pipe from ('209.198.250.107', 23028)
+Not Found: /lF9JuDM
+[06/Dec/2023 01:39:34] "GET /lF9JuDM?RXEyFj6he=TbNO.hplw&T3PLE=AiV&UQ1G=tkQpaOAVkZ-Fx0M4O&v-cRB=J&XuGzndv=E_0b-CtpoORyLeIegWBQ HTTP/1.1" 404 2900
+Not Found: /3dBDl.HNfVPi8gbLCXMLzxuBD1nc
+[06/Dec/2023 01:39:37] "GET /3dBDl.HNfVPi8gbLCXMLzxuBD1nc?z=tNOM&sM-auKuVww=Jqb HTTP/1.1" 404 2881
+Not Found: /A.I0T7oOb-6/IvuaBa
+[06/Dec/2023 01:39:39] "GET /A.I0T7oOb-6/IvuaBa?iUTOQlOx1=RW0pxlHzlRXp_thFf6HoV2gt8.uxH&y=XMbHBWibD7&lllv3G=Qb3kSYBYeC8zu1xj0ONmZT1kP1t_ HTTP/1.1" 404 2924
+[06/Dec/2023 01:43:00] "GET / HTTP/1.0" 200 5518
+Not Found: /a5mrab
+[06/Dec/2023 01:46:03] "POST /a5mrab HTTP/1.1" 404 2787
+[06/Dec/2023 01:46:04,451] - Broken pipe from ('209.198.250.97', 46402)
+Not Found: /t/hqI/UBd09eEtir_F40oJ2RH/Kw1uKvgWmyfc10adkay.CjP
+[06/Dec/2023 01:46:08] "GET /t/hqI/UBd09eEtir_F40oJ2RH/Kw1uKvgWmyfc10adkay.CjP?D2ppD=1sE_&Tnmtk9Aa=sxNCFzyMOBXnroCR-Bn&P20Dux6et-=CgvD2mVsgXQh3&2Vx=VmY1A8EK-DTXqtk.LQtn&mLQimz=m HTTP/1.1" 404 3035
+Not Found: /Sp_gR7xsjcelPnuVIQSnQ3jVS
+[06/Dec/2023 01:46:12] "GET /Sp_gR7xsjcelPnuVIQSnQ3jVS HTTP/1.1" 404 2848
+[06/Dec/2023 01:46:13,277] - Broken pipe from ('129.222.249.90', 11246)
+Not Found: /wnHqDk9
+[06/Dec/2023 01:46:17] "GET /wnHqDk9?PhLjMu=C&xGaeuc_Wv8o5F=GJq-.H0Q&6CVCg4p4=3UYvTrl1FKKrSvwZvpZdD-JNu8o HTTP/1.1" 404 2869
+Not Found: /dDHJHgZXfia2fo
+[06/Dec/2023 01:50:39] "GET /dDHJHgZXfia2fo?h=_dUO6rGQqxNfb&Y=.h0vZa-SUdwu5d9DjsOwxHu7L1XNa&oe3imnWqrEg=QmxUjZR8UxknT HTTP/1.1" 404 2897
+[06/Dec/2023 01:50:39,503] - Broken pipe from ('209.198.250.107', 36460)
+Not Found: /_0OBC_Te.0Fhs.RwvuX9v/SXBb/ZYz4BH9Yd-VVszgjQ/IWFc
+[06/Dec/2023 01:50:39] "GET /_0OBC_Te.0Fhs.RwvuX9v/SXBb/ZYz4BH9Yd-VVszgjQ/IWFc?lzN=Xei HTTP/1.1" 404 2926
+Not Found: /93ji/8X.b2ptn._.i/-5QbJ0FLxdon4yGD-1VVs
+[06/Dec/2023 01:50:41] "GET /93ji/8X.b2ptn._.i/-5QbJ0FLxdon4yGD-1VVs HTTP/1.1" 404 2890
+Not Found: /qy7gyj
+[06/Dec/2023 01:51:33] "POST /qy7gyj HTTP/1.1" 404 2787
+[06/Dec/2023 01:51:35,229] - Broken pipe from ('209.198.250.97', 54450)
+Not Found: /w9nsbk
+[06/Dec/2023 01:51:51] "POST /w9nsbk HTTP/1.1" 404 2787
+[06/Dec/2023 01:51:55,029] - Broken pipe from ('209.198.250.97', 11608)
+Not Found: /ch8er6
+[06/Dec/2023 01:54:59] "POST /ch8er6 HTTP/1.1" 404 2787
+[06/Dec/2023 01:55:00,414] - Broken pipe from ('209.198.250.97', 61654)
+Not Found: /had4s6
+[06/Dec/2023 01:58:09] "POST /had4s6 HTTP/1.1" 404 2787
+[06/Dec/2023 01:58:11,158] - Broken pipe from ('209.198.250.97', 61038)
+Not Found: /wyyjk6
+[06/Dec/2023 01:58:33] "POST /wyyjk6 HTTP/1.1" 404 2787
+[06/Dec/2023 01:58:34,775] - Broken pipe from ('209.198.250.97', 32056)
+Not Found: /w539sv
+[06/Dec/2023 02:02:49] "POST /w539sv HTTP/1.1" 404 2787
+[06/Dec/2023 02:02:50,951] - Broken pipe from ('209.198.250.97', 49134)
+Not Found: /a6dbr7
+[06/Dec/2023 02:03:12] "POST /a6dbr7 HTTP/1.1" 404 2787
+[06/Dec/2023 02:03:13,860] - Broken pipe from ('209.198.250.97', 33559)
+[06/Dec/2023 02:03:32] "GET / HTTP/1.1" 200 5518
+Not Found: /p27yvn
+[06/Dec/2023 02:08:04] "POST /p27yvn HTTP/1.1" 404 2787
+[06/Dec/2023 02:08:05,851] - Broken pipe from ('209.198.250.97', 48132)
+Not Found: /xxwz57
+[06/Dec/2023 02:11:09] "POST /xxwz57 HTTP/1.1" 404 2787
+[06/Dec/2023 02:11:10,855] - Broken pipe from ('209.198.250.97', 52977)
+Not Found: /aujfkk
+[06/Dec/2023 02:11:35] "POST /aujfkk HTTP/1.1" 404 2787
+[06/Dec/2023 02:11:36,356] - Broken pipe from ('209.198.250.97', 49151)
+Not Found: /adn2jf
+[06/Dec/2023 02:12:05] "POST /adn2jf HTTP/1.1" 404 2787
+[06/Dec/2023 02:12:07,330] - Broken pipe from ('209.198.250.97', 13434)
+Not Found: /9cwxn2
+[06/Dec/2023 02:12:31] "POST /9cwxn2 HTTP/1.1" 404 2787
+[06/Dec/2023 02:12:32,334] - Broken pipe from ('209.198.250.97', 11259)
+Not Found: /fa7wtr
+[06/Dec/2023 02:12:52] "POST /fa7wtr HTTP/1.1" 404 2787
+[06/Dec/2023 02:12:54,240] - Broken pipe from ('209.198.250.97', 38357)
+Not Found: /y9g5uw
+[06/Dec/2023 02:13:17] "POST /y9g5uw HTTP/1.1" 404 2787
+[06/Dec/2023 02:13:18,361] - Broken pipe from ('209.198.250.97', 15700)
+Not Found: /X4L0EG1UhWFkCDGnifHwNeEtyQ/UR/uxp7
+[06/Dec/2023 02:22:20] "GET /X4L0EG1UhWFkCDGnifHwNeEtyQ/UR/uxp7?NU5Ui0S1i0gPtI=PfI69rRFlPe7WyQN&ID5KUslzzTpB=7AQXEHaZkd&v-qExa82G=ggUQrsj8Y97TVhBfgi8Ox4pf HTTP/1.1" 404 2974
+[06/Dec/2023 02:22:21,986] - Broken pipe from ('209.198.250.107', 21896)
+Not Found: /b0Pi4ogNkaxTE_
+[06/Dec/2023 02:22:24] "GET /b0Pi4ogNkaxTE_?i=J-P7Cnwey9eSEOXa HTTP/1.1" 404 2832
+Not Found: /BGndBiBI
+[06/Dec/2023 02:22:25] "GET /BGndBiBI HTTP/1.1" 404 2797
+Not Found: /aRomUQFbrW8p1MEW906owjJ
+[06/Dec/2023 02:30:39] "GET /aRomUQFbrW8p1MEW906owjJ?5urvn=6oNgzK HTTP/1.1" 404 2855
+[06/Dec/2023 02:30:39,669] - Broken pipe from ('209.198.250.107', 19378)
+Not Found: /6QCpmNP9jMM.fY61ACM47NnZ9kVqV
+[06/Dec/2023 02:30:43] "GET /6QCpmNP9jMM.fY61ACM47NnZ9kVqV?g=lABz10.N0BUGnDRc6Hwp5h9db4&TrH_=L_8-NdwhSfIShr4ryYsAk HTTP/1.1" 404 2920
+Not Found: /A4qR
+[06/Dec/2023 02:30:46] "GET /A4qR?hG7eUlXxHm=HEUNkkCtpVo7RKRxSHRO2n&RvSEaflkXK5vgn=Ir8k_3DABoe2qkFDfz61-&g1Zuc0lA9dgr2=_UX-KL-EIRnA9UeiwV&RMaka.=KyUeInX33x8CQ&_lc5fBRmuFH=Tx7zk2jDwhTqlDXrH849RPiFTR HTTP/1.1" 404 2963
+Not Found: /3jjpym
+[06/Dec/2023 02:31:26] "POST /3jjpym HTTP/1.1" 404 2787
+[06/Dec/2023 02:31:28,659] - Broken pipe from ('209.198.250.97', 54542)
+Not Found: /Core/Skin/Login.aspx
+[06/Dec/2023 02:40:25] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+[06/Dec/2023 02:40:32,480] - Broken pipe from ('197.215.154.39', 40963)
+[06/Dec/2023 02:41:17,442] - Broken pipe from ('197.215.154.39', 40964)
+[06/Dec/2023 02:41:17,447] - Broken pipe from ('197.215.154.39', 40965)
+[06/Dec/2023 02:41:17,530] - Broken pipe from ('197.215.154.39', 40966)
+[06/Dec/2023 02:41:22,764] - Broken pipe from ('197.215.154.39', 40967)
+[06/Dec/2023 02:42:50,630] - Broken pipe from ('197.215.154.39', 40968)
+[06/Dec/2023 02:42:50,787] - Broken pipe from ('197.215.154.39', 40969)
+[06/Dec/2023 02:42:56,049] - Broken pipe from ('197.215.154.39', 40970)
+[06/Dec/2023 02:45:23,090] - Broken pipe from ('197.215.154.39', 40971)
+[06/Dec/2023 02:45:23,178] - Broken pipe from ('197.215.154.39', 40973)
+[06/Dec/2023 02:45:23,183] - Broken pipe from ('197.215.154.39', 40972)
+[06/Dec/2023 02:45:39] "GET / HTTP/1.1" 200 5518
+[06/Dec/2023 02:48:19,880] - Broken pipe from ('165.16.88.110', 61341)
+[06/Dec/2023 02:48:19,887] - Broken pipe from ('165.16.88.110', 61342)
+[06/Dec/2023 02:48:20,259] - Broken pipe from ('165.16.88.110', 61343)
+[06/Dec/2023 02:48:21,026] - Broken pipe from ('165.16.88.110', 61340)
+[06/Dec/2023 02:48:25,116] - Broken pipe from ('165.16.88.110', 61344)
+[06/Dec/2023 02:48:25,137] - Broken pipe from ('165.16.88.110', 61346)
+[06/Dec/2023 02:48:25,155] - Broken pipe from ('165.16.88.110', 61345)
+[06/Dec/2023 02:48:25,324] - Broken pipe from ('165.16.88.110', 61347)
+[06/Dec/2023 02:49:03,104] - Broken pipe from ('165.16.88.110', 61349)
+[06/Dec/2023 02:49:03,110] - Broken pipe from ('165.16.88.110', 61350)
+[06/Dec/2023 02:49:03,126] - Broken pipe from ('165.16.88.110', 61351)
+[06/Dec/2023 02:49:03,210] - Broken pipe from ('165.16.88.110', 61348)
+[06/Dec/2023 02:49:08,426] - Broken pipe from ('165.16.88.110', 61353)
+[06/Dec/2023 02:49:08,466] - Broken pipe from ('165.16.88.110', 61355)
+[06/Dec/2023 02:49:08,469] - Broken pipe from ('165.16.88.110', 61354)
+[06/Dec/2023 02:49:08,561] - Broken pipe from ('165.16.88.110', 61352)
+[06/Dec/2023 02:49:47,783] - Broken pipe from ('165.16.88.110', 61356)
+[06/Dec/2023 02:49:47,982] - Broken pipe from ('165.16.88.110', 61357)
+[06/Dec/2023 02:49:53,085] - Broken pipe from ('165.16.88.110', 61358)
+[06/Dec/2023 02:49:53,211] - Broken pipe from ('165.16.88.110', 61359)
+[06/Dec/2023 02:50:31,412] - Broken pipe from ('165.16.88.110', 61360)
+[06/Dec/2023 02:50:31,524] - Broken pipe from ('165.16.88.110', 61362)
+[06/Dec/2023 02:50:31,673] - Broken pipe from ('165.16.88.110', 61363)
+Not Found: /TCqXHgtf2qi-_AC8_r
+[06/Dec/2023 02:52:27] "GET /TCqXHgtf2qi-_AC8_r?Tkql=_&yDg_COz0E=RjHyg5iUBwWQ3ZxySrbJDCaWDjfo&EHfqemAaqEFZR3=SeEr.3ZM8&UeJitdE3q6=7Rn.AYFoc-onOkuSyaGjQrYTz1uXm HTTP/1.1" 404 2949
+Not Found: /o83K8/eX2_NSPkMhq2zp/lFV.mqu.
+[06/Dec/2023 02:52:29] "GET /o83K8/eX2_NSPkMhq2zp/lFV.mqu.?GJ1ywg=GOGmU&Wc=s6TFk8aYAV0n3Wmdb43X&jxlCc5FIL=zg6JW7MKn_pWMFR8Hd_mi HTTP/1.1" 404 2937
+Not Found: /F1pwCt_ZNSZEaJTKdG/5TTmR/lZc4OR/x8AhU
+[06/Dec/2023 02:52:32] "GET /F1pwCt_ZNSZEaJTKdG/5TTmR/lZc4OR/x8AhU?Z_x13gf0s0X7=CFRw7Ydy8BTqk5Bvl1kSt-Im.2FeK&GBpgPW=9 HTTP/1.1" 404 2940
+[06/Dec/2023 02:55:20,293] - Broken pipe from ('102.164.101.16', 21153)
+[06/Dec/2023 02:55:20,337] - Broken pipe from ('102.164.101.16', 21152)
+[06/Dec/2023 02:55:20,374] - Broken pipe from ('102.164.101.16', 21154)
+[06/Dec/2023 02:55:20,584] - Broken pipe from ('102.164.101.16', 21155)
+[06/Dec/2023 02:55:25,596] - Broken pipe from ('102.164.101.16', 21156)
+[06/Dec/2023 02:55:25,609] - Broken pipe from ('102.164.101.16', 21157)
+[06/Dec/2023 02:55:25,636] - Broken pipe from ('102.164.101.16', 21158)
+[06/Dec/2023 02:55:25,811] - Broken pipe from ('102.164.101.16', 21159)
+Not Found: /Fz5lgRz.mO5DjEby4PySAibR/oSqc
+[06/Dec/2023 03:00:00] "GET /Fz5lgRz.mO5DjEby4PySAibR/oSqc HTTP/1.1" 404 2860
+[06/Dec/2023 03:00:01,596] - Broken pipe from ('209.198.250.107', 41111)
+Not Found: /_1uUAv1tI0TmhnO-
+[06/Dec/2023 03:00:01] "GET /_1uUAv1tI0TmhnO-?S=pM98D&qxF75DYg79.F=K&7iOnlOS5ML=35APpMKKw&vR3C8TAjzuJfe=yKM0xVH7Mv&FMdyAR4Yw=N3&dMKHUc1Pl0=2ZddLQPtueteR3LEJA.df HTTP/1.1" 404 2954
+Not Found: /6BmKz.PpqY/w0lT.KEL7fYjOSB8Z/DGxHJdpQQ-47F3LsSgfXUPTgZMtT/W.dUSCnwwsqEUtT4p8soEPcKU_gC
+[06/Dec/2023 03:00:05] "GET /6BmKz.PpqY/w0lT.KEL7fYjOSB8Z/DGxHJdpQQ-47F3LsSgfXUPTgZMtT/W.dUSCnwwsqEUtT4p8soEPcKU_gC?Sl=mSPq16JFTeoAD&GNBniVoKZQES4=aRIYNKfDSGebvCZNnFZj&ZruhIUf=zcWTzaqO&wemO=l9REC1g&WJ=RX5EQUlSHGRRvfwYj0T HTTP/1.1" 404 3152
+Not Found: /.env
+[06/Dec/2023 03:00:27] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 03:00:28] "POST / HTTP/1.1" 403 2999
+Not Found: /CiowHd9r9nBdyQCB/R8-v4Zt8iybMt-QxYzsB8u-fB/_TowfCyu3rz8JbnmfObQU
+[06/Dec/2023 03:06:06] "GET /CiowHd9r9nBdyQCB/R8-v4Zt8iybMt-QxYzsB8u-fB/_TowfCyu3rz8JbnmfObQU?yPVRpUbvNv=fPLl_-__22nG8p3&idHl=dxQrjn&5=eDl241heivdjxL49_4mEtFu&W=2W HTTP/1.1" 404 3045
+[06/Dec/2023 03:06:13,666] - Broken pipe from ('24.11.62.150', 59446)
+Not Found: /txh5t9
+[06/Dec/2023 03:06:41] "POST /txh5t9 HTTP/1.1" 404 2787
+[06/Dec/2023 03:06:42,791] - Broken pipe from ('209.198.250.97', 21665)
+Not Found: /tzbmnw
+[06/Dec/2023 03:10:05] "POST /tzbmnw HTTP/1.1" 404 2787
+[06/Dec/2023 03:10:07,755] - Broken pipe from ('209.198.250.97', 50052)
+Not Found: /wjaqyt
+[06/Dec/2023 03:13:59] "POST /wjaqyt HTTP/1.1" 404 2792
+[06/Dec/2023 03:14:00] code 400, message Bad request syntax ('ô`*®')
+[06/Dec/2023 03:14:00] "ô`*®" 400 -
+Not Found: /yba6h3
+[06/Dec/2023 03:15:05] "POST /yba6h3 HTTP/1.1" 404 2787
+[06/Dec/2023 03:15:06,908] - Broken pipe from ('209.198.250.97', 9498)
+Not Found: /9436bz
+[06/Dec/2023 03:21:25] "POST /9436bz HTTP/1.1" 404 2787
+[06/Dec/2023 03:21:27,000] - Broken pipe from ('209.198.250.97', 10863)
+Not Found: /5bvwsu
+[06/Dec/2023 03:24:35] "POST /5bvwsu HTTP/1.1" 404 2787
+[06/Dec/2023 03:24:37,008] - Broken pipe from ('209.198.250.97', 64629)
+Not Found: /jgwz66
+[06/Dec/2023 03:29:51] "POST /jgwz66 HTTP/1.1" 404 2787
+[06/Dec/2023 03:29:53,623] - Broken pipe from ('209.198.250.97', 62019)
+Not Found: /tfmbph
+[06/Dec/2023 03:34:20] "POST /tfmbph HTTP/1.1" 404 2787
+[06/Dec/2023 03:34:22,175] - Broken pipe from ('209.198.250.97', 47853)
+Not Found: /gkhtb9
+[06/Dec/2023 03:38:51] "POST /gkhtb9 HTTP/1.1" 404 2787
+[06/Dec/2023 03:38:52,535] - Broken pipe from ('209.198.250.97', 24040)
+Not Found: /hcu3yd
+[06/Dec/2023 03:39:36] "POST /hcu3yd HTTP/1.1" 404 2787
+[06/Dec/2023 03:39:37,761] - Broken pipe from ('209.198.250.97', 51275)
+Not Found: /6zjsqu
+[06/Dec/2023 03:45:21] "POST /6zjsqu HTTP/1.1" 404 2787
+[06/Dec/2023 03:45:22,859] - Broken pipe from ('209.198.250.97', 54810)
+Not Found: /2grmcm
+[06/Dec/2023 03:45:49] "POST /2grmcm HTTP/1.1" 404 2787
+[06/Dec/2023 03:45:50,874] - Broken pipe from ('209.198.250.97', 32948)
+Not Found: /raq28p
+[06/Dec/2023 03:46:41] "POST /raq28p HTTP/1.1" 404 2787
+[06/Dec/2023 03:46:42,768] - Broken pipe from ('209.198.250.97', 28883)
+Not Found: /fcanag
+[06/Dec/2023 03:50:36] "POST /fcanag HTTP/1.1" 404 2787
+[06/Dec/2023 03:50:38,606] - Broken pipe from ('209.198.250.97', 65534)
+Not Found: /hzrz8w
+[06/Dec/2023 03:53:46] "POST /hzrz8w HTTP/1.1" 404 2787
+[06/Dec/2023 03:53:48,173] - Broken pipe from ('209.198.250.97', 59756)
+Not Found: /cmj7sh
+[06/Dec/2023 03:54:34] "POST /cmj7sh HTTP/1.1" 404 2787
+[06/Dec/2023 03:54:36,860] - Broken pipe from ('206.83.101.110', 57052)
+Not Found: /7pf45r
+[06/Dec/2023 03:59:16] "POST /7pf45r HTTP/1.1" 404 2787
+[06/Dec/2023 03:59:17,313] - Broken pipe from ('209.198.250.97', 30634)
+Not Found: /9rcpkw
+[06/Dec/2023 04:00:09] "POST /9rcpkw HTTP/1.1" 404 2787
+[06/Dec/2023 04:00:11,709] - Broken pipe from ('209.198.250.97', 54103)
+Not Found: /.env
+[06/Dec/2023 04:00:33] "GET /.env HTTP/1.1" 404 2781
+Not Found: /cnvyd6
+[06/Dec/2023 04:00:49] "POST /cnvyd6 HTTP/1.1" 404 2787
+[06/Dec/2023 04:00:50,798] - Broken pipe from ('209.198.250.97', 46527)
+Not Found: /6qczd3
+[06/Dec/2023 04:04:01] "POST /6qczd3 HTTP/1.1" 404 2787
+[06/Dec/2023 04:04:03,420] - Broken pipe from ('209.198.250.97', 56768)
+Not Found: /ndhd4d
+[06/Dec/2023 04:04:24] "POST /ndhd4d HTTP/1.1" 404 2787
+[06/Dec/2023 04:04:25,908] - Broken pipe from ('209.198.250.97', 14785)
+Not Found: /qcy5e5
+[06/Dec/2023 04:05:03] "POST /qcy5e5 HTTP/1.1" 404 2787
+[06/Dec/2023 04:05:05,701] - Broken pipe from ('209.198.250.97', 49677)
+[06/Dec/2023 04:11:11] "GET / HTTP/1.1" 200 5518
+Not Found: /.env
+[06/Dec/2023 04:13:37] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 04:13:38] "POST / HTTP/1.1" 403 2999
+Not Found: /Core/Skin/Login.aspx
+[06/Dec/2023 04:18:56] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+Not Found: /gzyzz5
+[06/Dec/2023 04:19:44] "POST /gzyzz5 HTTP/1.1" 404 2785
+Not Found: /acswsk
+[06/Dec/2023 04:19:44] "POST /acswsk HTTP/1.1" 404 2790
+[06/Dec/2023 04:19:52] code 400, message Bad request syntax ('\x08\x03qa')
+[06/Dec/2023 04:19:52] "qa" 400 -
+[06/Dec/2023 04:19:53] code 400, message Bad request syntax ('\x06òFØ')
+[06/Dec/2023 04:19:53] "òFØ" 400 -
+[06/Dec/2023 04:21:05] code 400, message Bad request syntax ('MGLNDD_3.36.124.132_80')
+[06/Dec/2023 04:21:05] "MGLNDD_3.36.124.132_80" 400 -
+Not Found: /rw2kd8
+[06/Dec/2023 04:23:47] "POST /rw2kd8 HTTP/1.1" 404 2785
+[06/Dec/2023 04:23:49] code 400, message Bad request syntax ('lÍ°¾')
+[06/Dec/2023 04:23:49] "lÍ°¾" 400 -
+Not Found: /2d9hwm
+[06/Dec/2023 04:24:00] "POST /2d9hwm HTTP/1.1" 404 2790
+Not Found: /tjmbwt
+[06/Dec/2023 04:24:17] "POST /tjmbwt HTTP/1.1" 404 2785
+Not Found: /b36twe
+[06/Dec/2023 04:24:17] "POST /b36twe HTTP/1.1" 404 2790
+[06/Dec/2023 04:24:20] code 400, message Bad request syntax ('?\x00L_')
+[06/Dec/2023 04:24:20] "? L_" 400 -
+Not Found: /kwt4tc
+[06/Dec/2023 04:24:57] "POST /kwt4tc HTTP/1.1" 404 2790
+Not Found: /pyyzb8
+[06/Dec/2023 04:24:58] "POST /pyyzb8 HTTP/1.1" 404 2785
+[06/Dec/2023 04:25:00] code 400, message Bad request syntax ('×ÅðN')
+[06/Dec/2023 04:25:00] "×ÅðN" 400 -
+[06/Dec/2023 04:25:06] code 400, message Bad request syntax ('`(F\x1d')
+[06/Dec/2023 04:25:06] "`(F" 400 -
+Not Found: /9p8ppj
+[06/Dec/2023 04:25:26] "POST /9p8ppj HTTP/1.1" 404 2790
+Not Found: /m49j3k
+[06/Dec/2023 04:25:26] "POST /m49j3k HTTP/1.1" 404 2785
+[06/Dec/2023 04:25:28] code 400, message Bad HTTP/0.9 request type ('\x92')
+[06/Dec/2023 04:25:28] "[n" 400 -
+[06/Dec/2023 04:25:31] code 400, message Bad HTTP/0.9 request type ('\x0f')
+[06/Dec/2023 04:25:31] "¦º" 400 -
+[06/Dec/2023 04:25:49] code 400, message Bad request syntax ('ð\x18)<')
+[06/Dec/2023 04:25:49] "ð)<" 400 -
+[06/Dec/2023 04:25:50] code 400, message Bad HTTP/0.9 request type ('*')
+[06/Dec/2023 04:25:50] "*í&" 400 -
+Not Found: /28zts7
+[06/Dec/2023 04:29:56] "POST /28zts7 HTTP/1.1" 404 2787
+[06/Dec/2023 04:29:57,830] - Broken pipe from ('209.198.250.97', 51350)
+[06/Dec/2023 04:37:09] "GET / HTTP/1.1" 200 5518
+[06/Dec/2023 04:41:17] "GET / HTTP/1.0" 200 5518
+[06/Dec/2023 04:57:00] code 400, message Bad request version ('À\x14À')
+[06/Dec/2023 04:57:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Dec/2023 05:07:43,145] - Broken pipe from ('188.229.44.241', 57848)
+[06/Dec/2023 05:08:33,303] - Broken pipe from ('188.229.44.241', 39114)
+[06/Dec/2023 05:08:38,426] - Broken pipe from ('188.229.44.241', 39710)
+Not Found: /q2dwdt
+[06/Dec/2023 05:09:27] "POST /q2dwdt HTTP/1.1" 404 2787
+[06/Dec/2023 05:09:29,459] - Broken pipe from ('209.198.250.97', 40322)
+Not Found: /ny7b4f
+[06/Dec/2023 05:12:43] "POST /ny7b4f HTTP/1.1" 404 2787
+[06/Dec/2023 05:12:45,160] - Broken pipe from ('209.198.250.97', 34875)
+Not Found: /decbuc
+[06/Dec/2023 05:13:21] "POST /decbuc HTTP/1.1" 404 2787
+[06/Dec/2023 05:13:23,791] - Broken pipe from ('209.198.250.97', 23800)
+Not Found: /mkej5h
+[06/Dec/2023 05:14:44] "POST /mkej5h HTTP/1.1" 404 2787
+[06/Dec/2023 05:14:45,963] - Broken pipe from ('209.198.250.97', 39730)
+Not Found: /u/g5za9CvObuB5s3o707dSpFkFx/AyPF7UfgK0J9rQnN9eY0Vzd.Rhs/NZ8pSYFO9Hd1uE0fG09iBNX
+[06/Dec/2023 05:16:54] "GET /u/g5za9CvObuB5s3o707dSpFkFx/AyPF7UfgK0J9rQnN9eY0Vzd.Rhs/NZ8pSYFO9Hd1uE0fG09iBNX?Rx=hVC_.vvwf1&yN-eR.o=NsIgCqhFkPzg8ORjYTcKEI8E_fuaR&b=QhocYvoujxQQjAstle5.WwJDSTsQ_ HTTP/1.1" 404 3099
+[06/Dec/2023 05:16:54,942] - Broken pipe from ('98.97.168.194', 58150)
+[06/Dec/2023 05:16:54,983] - Broken pipe from ('98.97.168.194', 58186)
+[06/Dec/2023 05:16:55,798] - Broken pipe from ('98.97.168.194', 59078)
+[06/Dec/2023 05:17:38] "GET / HTTP/1.1" 200 5518
+Not Found: /systembc/password.php
+[06/Dec/2023 05:17:40] "GET /systembc/password.php HTTP/1.1" 404 2832
+Not Found: /Ep1v
+[06/Dec/2023 05:17:41] "GET /Ep1v HTTP/1.1" 404 2781
+Not Found: /GWqN
+[06/Dec/2023 05:17:43] "GET /GWqN HTTP/1.1" 404 2781
+Not Found: /juyzw9
+[06/Dec/2023 05:18:35] "POST /juyzw9 HTTP/1.1" 404 2787
+[06/Dec/2023 05:18:36,421] - Broken pipe from ('209.198.250.97', 46649)
+Not Found: /esv5wj
+[06/Dec/2023 05:21:44] "POST /esv5wj HTTP/1.1" 404 2787
+[06/Dec/2023 05:21:45,466] - Broken pipe from ('209.198.250.97', 62538)
+Not Found: /shq4ca
+[06/Dec/2023 05:24:45] "POST /shq4ca HTTP/1.1" 404 2787
+[06/Dec/2023 05:24:46,948] - Broken pipe from ('209.198.250.97', 12779)
+[06/Dec/2023 05:25:32] code 400, message Bad HTTP/0.9 request type ('\x00\x0e8')
+[06/Dec/2023 05:25:32] " 8ÚR7÷Èq     " 400 -
+Not Found: /n8q4w4
+[06/Dec/2023 05:28:13] "POST /n8q4w4 HTTP/1.1" 404 2787
+[06/Dec/2023 05:28:14,778] - Broken pipe from ('209.198.250.97', 56710)
+Not Found: /an6yb7
+[06/Dec/2023 05:29:01] "POST /an6yb7 HTTP/1.1" 404 2787
+[06/Dec/2023 05:29:02,818] - Broken pipe from ('209.198.250.97', 52351)
+Not Found: /.env
+[06/Dec/2023 05:32:59] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 05:33:00] "POST / HTTP/1.1" 403 2999
+[06/Dec/2023 05:36:14,407] - Broken pipe from ('179.29.166.113', 21366)
+[06/Dec/2023 05:36:14,409] - Broken pipe from ('179.29.166.113', 21182)
+[06/Dec/2023 05:36:14,414] - Broken pipe from ('179.29.166.113', 21386)
+[06/Dec/2023 05:36:15,026] - Broken pipe from ('179.29.166.113', 21485)
+[06/Dec/2023 05:36:20,007] - Broken pipe from ('179.29.166.113', 21521)
+[06/Dec/2023 05:36:20,014] - Broken pipe from ('179.29.166.113', 21785)
+[06/Dec/2023 05:36:22,772] - Broken pipe from ('179.29.166.113', 21856)
+[06/Dec/2023 05:41:18] "GET / HTTP/1.0" 200 5518
+[06/Dec/2023 05:43:25,762] - Broken pipe from ('129.222.249.90', 59221)
+Not Found: /wOShB_IGKRVo8OuQci4sE3fV
+[06/Dec/2023 05:43:27] "GET /wOShB_IGKRVo8OuQci4sE3fV?dS-nsJ=tbAPeUftuiT_PYFdiMRe5CShiz.&vYQsxmA=a_SH HTTP/1.1" 404 2897
+Not Found: /A1azgFlr.G6VAGDo/zaLO5Azqk7bp
+[06/Dec/2023 05:43:28] "GET /A1azgFlr.G6VAGDo/zaLO5Azqk7bp?HxveOaDMTqTg4=xfQ0R60G&.L-W=kSkWO8FL0DdPE&.5T4h-n41=MYeLHWZeeoB&X=A9MS-HUHEkCA40ZC-pmzYultW-CW&OWU=G&vM=lbUXj4xC8 HTTP/1.1" 404 2992
+Not Found: /BefjILmy-RixjhU_iZ8NrC/-XM7RYSNNStc3jOl2PPETf/sqnh
+[06/Dec/2023 05:43:34] "GET /BefjILmy-RixjhU_iZ8NrC/-XM7RYSNNStc3jOl2PPETf/sqnh?zgCa=gjb_mDS5I.u&bQLQYcQtA4V=K4KBWH7J5jfO&c9z=hDfU4Uu&DVKE1g6lNxUztG=deZ9-eWq&E8tF.=mSFsQJRGbR HTTP/1.1" 404 3034
+Not Found: /cbyuxa
+[06/Dec/2023 05:46:05] "POST /cbyuxa HTTP/1.1" 404 2787
+[06/Dec/2023 05:47:45] "GET / HTTP/1.1" 200 5518
+Not Found: /Core/Skin/Login.aspx
+[06/Dec/2023 05:57:30] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+Not Found: /eg7fkv
+[06/Dec/2023 06:16:34] "POST /eg7fkv HTTP/1.1" 404 2787
+[06/Dec/2023 06:16:35,819] - Broken pipe from ('209.198.250.97', 64885)
+Not Found: /t3kndq
+[06/Dec/2023 06:16:53] "POST /t3kndq HTTP/1.1" 404 2787
+[06/Dec/2023 06:16:55,257] - Broken pipe from ('209.198.250.97', 30928)
+Not Found: /wbv3kw
+[06/Dec/2023 06:17:12] "POST /wbv3kw HTTP/1.1" 404 2787
+[06/Dec/2023 06:17:13,384] - Broken pipe from ('209.198.250.97', 29487)
+Not Found: /gbs8tj
+[06/Dec/2023 06:29:35] "POST /gbs8tj HTTP/1.1" 404 2787
+[06/Dec/2023 06:29:37,251] - Broken pipe from ('209.198.250.97', 44051)
+Not Found: /mv4yuj
+[06/Dec/2023 06:29:56] "POST /mv4yuj HTTP/1.1" 404 2787
+[06/Dec/2023 06:29:57,485] - Broken pipe from ('209.198.250.97', 33157)
+Not Found: /J9PimcIyu4ibL/1lUMCpGV/aTa9ujelYo-6GIOMWogt_B-qhJ/-uw.4-cUE8CFFjEPg1V
+[06/Dec/2023 06:37:44] "GET /J9PimcIyu4ibL/1lUMCpGV/aTa9ujelYo-6GIOMWogt_B-qhJ/-uw.4-cUE8CFFjEPg1V?-DykkVb=9QbLk.5a1WXn13jpMaQSixrcP3P&4V9Ad8rl8=IXQX6ryrIk&_Kg=e-4hZtZ9TMdzemk6W1tm&ZYpRzXwsxyQR=y&Xyk=XvZp6UgTYEpZ&2UP_PIb=7RzKBCzOPqMS6km HTTP/1.1" 404 3136
+Not Found: /NDWAPh9qH7.NaiXqfanz4U1Fm
+[06/Dec/2023 06:37:44] "GET /NDWAPh9qH7.NaiXqfanz4U1Fm?Zyu9iSj70=J HTTP/1.1" 404 2862
+Not Found: /hq/0IiJP5DkUW0xAFoAcVMxrOaYB/aoAV.RWPmYjUnIgbs62SKd-BK/KRB9qbd1GKcpfQ
+[06/Dec/2023 06:37:44] "GET /hq/0IiJP5DkUW0xAFoAcVMxrOaYB/aoAV.RWPmYjUnIgbs62SKd-BK/KRB9qbd1GKcpfQ?P9vvDFy4n=JKHTtsyq HTTP/1.1" 404 2997
+Not Found: /.env
+[06/Dec/2023 06:46:04] "GET /.env HTTP/1.1" 404 2781
+Not Found: /tprery
+[06/Dec/2023 06:49:15] "POST /tprery HTTP/1.1" 404 2787
+[06/Dec/2023 06:49:17,264] - Broken pipe from ('209.198.250.97', 12218)
+Not Found: /2d2tkz
+[06/Dec/2023 06:49:44] "POST /2d2tkz HTTP/1.1" 404 2787
+[06/Dec/2023 06:49:46,193] - Broken pipe from ('209.198.250.97', 39243)
+Not Found: /pf82c2
+[06/Dec/2023 06:49:57] "POST /pf82c2 HTTP/1.1" 404 2790
+[06/Dec/2023 06:49:59,147] - Broken pipe from ('209.198.250.97', 50238)
+Not Found: /wu2fm4
+[06/Dec/2023 06:50:20] "POST /wu2fm4 HTTP/1.1" 404 2787
+[06/Dec/2023 06:50:21,698] - Broken pipe from ('209.198.250.97', 56552)
+Not Found: /a4kcxk
+[06/Dec/2023 07:07:10] "POST /a4kcxk HTTP/1.1" 404 2787
+[06/Dec/2023 07:07:10,766] - Broken pipe from ('209.198.251.106', 12518)
+Not Found: /V9Wkb9so-XsJt/f.sx4qaw-Z/7QLtb/RVCqzFLibHZz6JDwn_0uH9ZlefHj
+[06/Dec/2023 07:21:45] "GET /V9Wkb9so-XsJt/f.sx4qaw-Z/7QLtb/RVCqzFLibHZz6JDwn_0uH9ZlefHj?lNtI=8cl4NkwLWMW5XY9gjsB&5=oZI20e.c-WcbtrdnyxZ0L&byky2=lYP8-U_HP27PaQNMV1uc&GuHO8=TQFHH1FaGrp._uX&5cv=Ghlh2rDqVMjkFIK1amgj_tF HTTP/1.1" 404 3089
+[06/Dec/2023 07:21:45,951] - Broken pipe from ('206.83.107.197', 37624)
+[06/Dec/2023 07:21:46,414] - Broken pipe from ('206.83.107.197', 38348)
+[06/Dec/2023 07:21:47,210] - Broken pipe from ('206.83.107.197', 39290)
+[06/Dec/2023 07:30:34,816] - Broken pipe from ('206.83.107.197', 48682)
+[06/Dec/2023 07:30:35,363] - Broken pipe from ('206.83.107.197', 45580)
+Not Found: /jV8gZw9j5Qd039Hhl1_sz/nbg1DnrCUibNBznjtwyMaBiV7-r/2cPfUDOMnZ7H1rYvu/BU9DoyIdJQxhb6kzvpp4auFtg5
+[06/Dec/2023 07:30:35] "GET /jV8gZw9j5Qd039Hhl1_sz/nbg1DnrCUibNBznjtwyMaBiV7-r/2cPfUDOMnZ7H1rYvu/BU9DoyIdJQxhb6kzvpp4auFtg5?fYB06p207=UageTd6 HTTP/1.1" 404 3070
+[06/Dec/2023 07:30:36,052] - Broken pipe from ('206.83.107.197', 43300)
+Not Found: /Core/Skin/Login.aspx
+[06/Dec/2023 07:34:40] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+Not Found: /4jcsjb
+[06/Dec/2023 07:37:42] "POST /4jcsjb HTTP/1.1" 404 2787
+[06/Dec/2023 07:37:43,456] - Broken pipe from ('209.198.250.99', 43041)
+[06/Dec/2023 07:50:19,088] - Broken pipe from ('98.97.168.194', 50313)
+Not Found: /6Co0d4pdzLG/jphDiobSDxE._o_tL/_46/-hYFSWsO6GqtD6D-H9FU43mI6l3R
+[06/Dec/2023 07:50:19] "GET /6Co0d4pdzLG/jphDiobSDxE._o_tL/_46/-hYFSWsO6GqtD6D-H9FU43mI6l3R HTTP/1.1" 404 2956
+[06/Dec/2023 07:50:19,184] - Broken pipe from ('98.97.168.194', 43573)
+[06/Dec/2023 07:50:20,014] - Broken pipe from ('98.97.168.194', 39059)
+Not Found: /mvkjyq
+[06/Dec/2023 08:10:00] "POST /mvkjyq HTTP/1.1" 404 2792
+[06/Dec/2023 08:10:01] code 400, message Bad request syntax ('\x16ß!\x81')
+[06/Dec/2023 08:10:01] "ß!" 400 -
+Not Found: /.env
+[06/Dec/2023 08:13:06] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 08:13:07] "POST / HTTP/1.1" 403 2999
+Not Found: /dmMiUTJd1YDZWeyEC4BMJu_mRnGot/Gdcwqp/FVjVKehedeKt/CzEpKeC-mlvExJF
+[06/Dec/2023 08:17:19] "GET /dmMiUTJd1YDZWeyEC4BMJu_mRnGot/Gdcwqp/FVjVKehedeKt/CzEpKeC-mlvExJF?Va=OGB&YOuzX6Qg=7GazZ7M7&orNPx.tk=l&px6oGwx1Sg4=BNQ&GC.5tmx5an=4Et_Yd45cp4n3bZq0xQAmhsQIC HTTP/1.1" 404 3072
+Not Found: /LoJQ.7TXokDMWL2Gsw/JU5iR6Mj_65wscp66MMSRoIgqCDKp/
+[06/Dec/2023 08:19:52] "GET /LoJQ.7TXokDMWL2Gsw/JU5iR6Mj_65wscp66MMSRoIgqCDKp/?hl8_86aPTfs7=1 HTTP/1.1" 404 2933
+Not Found: /JEmkuhBZOJq157bZlz/8rLvQ49OrpU9d.DRpQ.MRXT/jfENK-Dl-x0W4EC/ncr1Bv5yypcd-xH..
+[06/Dec/2023 08:19:53] "GET /JEmkuhBZOJq157bZlz/8rLvQ49OrpU9d.DRpQ.MRXT/jfENK-Dl-x0W4EC/ncr1Bv5yypcd-xH.. HTTP/1.1" 404 3001
+Not Found: /8qqw3h
+[06/Dec/2023 08:42:23] "POST /8qqw3h HTTP/1.1" 404 2785
+[06/Dec/2023 08:42:23] code 400, message Bad request syntax ('Q¹;z')
+[06/Dec/2023 08:42:23] "Q¹;z" 400 -
+[06/Dec/2023 08:42:23,398] - Broken pipe from ('167.88.62.120', 51210)
+Not Found: /xekthk
+[06/Dec/2023 08:42:24] "POST /xekthk HTTP/1.1" 404 2790
+[06/Dec/2023 08:42:24] code 400, message Bad request syntax ('\x9b\x05o\x15')
+[06/Dec/2023 08:42:24] "o" 400 -
+Not Found: /yakdz4
+[06/Dec/2023 08:42:26] "POST /yakdz4 HTTP/1.1" 404 2790
+[06/Dec/2023 08:42:27] code 400, message Bad request syntax ('±Â\x93O')
+[06/Dec/2023 08:42:27] "±ÂO" 400 -
+Not Found: /sbh2sj
+[06/Dec/2023 08:42:28] "POST /sbh2sj HTTP/1.1" 404 2792
+[06/Dec/2023 08:42:28] code 400, message Bad request syntax ('ÿ\xad\x88Ç')
+[06/Dec/2023 08:42:28] "ÿ­Ç" 400 -
+Not Found: /LlIkzpsNVYsQcha6W1H4VoZsl/24Q5PdngLi487IU6FiJccrl_-V./NAw8x/CCJWlXoMEhGVfAgj5IFyOdro
+[06/Dec/2023 08:42:37] "GET /LlIkzpsNVYsQcha6W1H4VoZsl/24Q5PdngLi487IU6FiJccrl_-V./NAw8x/CCJWlXoMEhGVfAgj5IFyOdro?pWN21bJ=UW HTTP/1.1" 404 3029
+Not Found: /ko7IrMYt.oPVuwCpm4IpevL
+[06/Dec/2023 08:43:44] "GET /ko7IrMYt.oPVuwCpm4IpevL?jmu=e&jY.gkc=J-8Ui&v4U0j=1XXW7VdtP6-fZ8D5Aq&SKs=Cftg-uNOUs7ZO&FtK84w9=VLMr.Ut&0KjFZ2U9qlxm=4QI32ihyZ2RXry5QG0A_0-XpeeK-x HTTP/1.1" 404 2980
+[06/Dec/2023 08:43:45,354] - Broken pipe from ('206.83.107.197', 48802)
+[06/Dec/2023 08:43:45,876] - Broken pipe from ('206.83.107.197', 43636)
+[06/Dec/2023 08:43:46,374] - Broken pipe from ('206.83.107.197', 37222)
+[06/Dec/2023 08:45:11,431] - Broken pipe from ('5.82.99.203', 4319)
+[06/Dec/2023 08:46:21] "GET / HTTP/1.1" 200 5518
+Not Found: /eJ5goCIPX.mSOtJ/KunXejRuaITT
+[06/Dec/2023 08:52:55] "GET /eJ5goCIPX.mSOtJ/KunXejRuaITT?c0oNHsl-C1=sbAfSUUkA.XDQNLXKFg54&VIHYw5JX=X6zKjXTHg7yI4nUCImW3pwy1aQ44&nF90UKob7Zxt=gPq0kB HTTP/1.1" 404 2956
+[06/Dec/2023 08:52:57,177] - Broken pipe from ('209.198.250.96', 45365)
+Not Found: /pUJNmg9TuuWtQ9A/L/KEyKW.TShIsM7ou-TYR9WzPwN
+[06/Dec/2023 08:52:57] "GET /pUJNmg9TuuWtQ9A/L/KEyKW.TShIsM7ou-TYR9WzPwN?NlralszN5JAAe=D1P&2lYlFopQE.0=52JvVbsJf9XDAYie6 HTTP/1.1" 404 2952
+Not Found: /FgFuB30S-.ka22bCBX2lh/8GXgJc99/i45-c8TSOXc-yi51nx0XLZend-Px0
+[06/Dec/2023 08:52:58] "GET /FgFuB30S-.ka22bCBX2lh/8GXgJc99/i45-c8TSOXc-yi51nx0XLZend-Px0?wPXQPB.3jWHUZ=qG HTTP/1.1" 404 2970
+[06/Dec/2023 08:52:59] code 400, message Bad request version ('À\x14À')
+[06/Dec/2023 08:52:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /.env
+[06/Dec/2023 08:55:44] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 08:55:46] "POST / HTTP/1.1" 403 2999
+Not Found: /Core/Skin/Login.aspx
+[06/Dec/2023 09:11:39] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 0
+[06/Dec/2023 09:37:25] "GET / HTTP/1.0" 200 5518
+Not Found: /.env
+[06/Dec/2023 09:48:25] "GET /.env HTTP/1.1" 404 2781
+Forbidden (CSRF cookie not set.): /
+[06/Dec/2023 09:48:26] "POST / HTTP/1.1" 403 2999
+Not Found: /docker/.env
+[06/Dec/2023 09:54:17] "GET /docker/.env HTTP/1.1" 404 2802
+Not Found: /docker/.env
+[06/Dec/2023 09:54:17] "POST /docker/.env HTTP/1.1" 404 2803
+Not Found: /system/.env
+[06/Dec/2023 09:54:18] "GET /system/.env HTTP/1.1" 404 2802
+Not Found: /system/.env
+[06/Dec/2023 09:54:18] "POST /system/.env HTTP/1.1" 404 2803
+Not Found: /.env.prod
+[06/Dec/2023 09:54:18] "GET /.env.prod HTTP/1.1" 404 2796
+Not Found: /.env.prod
+[06/Dec/2023 09:54:19] "POST /.env.prod HTTP/1.1" 404 2797
+Not Found: /sources/.env
+[06/Dec/2023 09:54:19] "GET /sources/.env HTTP/1.1" 404 2805
+Not Found: /sources/.env
+[06/Dec/2023 09:54:20] "POST /sources/.env HTTP/1.1" 404 2806
+Not Found: /enviroments/.env.production
+[06/Dec/2023 09:54:20] "GET /enviroments/.env.production HTTP/1.1" 404 2850
+Not Found: /enviroments/.env.production
+[06/Dec/2023 09:54:20] "POST /enviroments/.env.production HTTP/1.1" 404 2851
+Not Found: /application/.env
+[06/Dec/2023 09:54:21] "GET /application/.env HTTP/1.1" 404 2817
+Not Found: /application/.env
+[06/Dec/2023 09:54:21] "POST /application/.env HTTP/1.1" 404 2818
+Not Found: /apps/.env
+[06/Dec/2023 09:54:21] "GET /apps/.env HTTP/1.1" 404 2796
+Not Found: /apps/.env
+[06/Dec/2023 09:54:22] "POST /apps/.env HTTP/1.1" 404 2797
+Not Found: /admin-app/.env
+[06/Dec/2023 09:54:22] "GET /admin-app/.env HTTP/1.1" 404 2811
+Not Found: /admin-app/.env
+[06/Dec/2023 09:54:23] "POST /admin-app/.env HTTP/1.1" 404 2812
+Not Found: /.env.development
+[06/Dec/2023 09:54:23] "GET /.env.development HTTP/1.1" 404 2817
+Not Found: /.env.development
+[06/Dec/2023 09:54:23] "POST /.env.development HTTP/1.1" 404 2818
+Not Found: /app/.env
+[06/Dec/2023 09:54:24] "GET /app/.env HTTP/1.1" 404 2793
+Not Found: /app/.env
+[06/Dec/2023 09:54:24] "POST /app/.env HTTP/1.1" 404 2794
+Not Found: /private/.env
+[06/Dec/2023 09:54:25] "GET /private/.env HTTP/1.1" 404 2805
+Not Found: /private/.env
+[06/Dec/2023 09:54:25] "POST /private/.env HTTP/1.1" 404 2806
+Not Found: /.env.old
+[06/Dec/2023 09:54:25] "GET /.env.old HTTP/1.1" 404 2793
+Not Found: /.env.old
+[06/Dec/2023 09:54:26] "POST /.env.old HTTP/1.1" 404 2794
+Not Found: /.env.production
+[06/Dec/2023 09:54:26] "GET /.env.production HTTP/1.1" 404 2814
+Not Found: /.env.production
+[06/Dec/2023 09:54:26] "POST /.env.production HTTP/1.1" 404 2815
+Not Found: /cms/.env
+[06/Dec/2023 09:54:27] "GET /cms/.env HTTP/1.1" 404 2793
+Not Found: /cms/.env
+[06/Dec/2023 09:54:27] "POST /cms/.env HTTP/1.1" 404 2794
+Not Found: /back/.env
+[06/Dec/2023 09:54:28] "GET /back/.env HTTP/1.1" 404 2796
+Not Found: /back/.env
+[06/Dec/2023 09:54:28] "POST /back/.env HTTP/1.1" 404 2797
+Not Found: /laravel/.env
+[06/Dec/2023 09:54:28] "GET /laravel/.env HTTP/1.1" 404 2805
+Not Found: /laravel/.env
+[06/Dec/2023 09:54:29] "POST /laravel/.env HTTP/1.1" 404 2806
+Not Found: /.aws/credentials
+[06/Dec/2023 09:54:29] "GET /.aws/credentials HTTP/1.1" 404 2817
+Not Found: /.aws/credentials
+[06/Dec/2023 09:54:30] "POST /.aws/credentials HTTP/1.1" 404 2818
+Not Found: /.env
+[06/Dec/2023 09:54:30] "GET /.env HTTP/1.1" 404 2781
+Not Found: /.env
+[06/Dec/2023 09:54:30] "POST /.env HTTP/1.1" 404 2782
+Not Found: /.env.save
+[06/Dec/2023 09:54:31] "GET /.env.save HTTP/1.1" 404 2796
+Not Found: /.env.save
+[06/Dec/2023 09:54:31] "POST /.env.save HTTP/1.1" 404 2797
+Not Found: /live_env
+[06/Dec/2023 09:54:31] "GET /live_env HTTP/1.1" 404 2793
+Not Found: /live_env
+[06/Dec/2023 09:54:32] "POST /live_env HTTP/1.1" 404 2794
+Not Found: /shared/.env
+[06/Dec/2023 09:54:32] "GET /shared/.env HTTP/1.1" 404 2802
+Not Found: /shared/.env
+[06/Dec/2023 09:54:33] "POST /shared/.env HTTP/1.1" 404 2803
+Not Found: /development/.env
+[06/Dec/2023 09:54:33] "GET /development/.env HTTP/1.1" 404 2817
+Not Found: /development/.env
+[06/Dec/2023 09:54:33] "POST /development/.env HTTP/1.1" 404 2818
+Not Found: /.env.dist
+[06/Dec/2023 09:54:34] "GET /.env.dist HTTP/1.1" 404 2796
+Not Found: /.env.dist
+[06/Dec/2023 09:54:34] "POST /.env.dist HTTP/1.1" 404 2797
+Not Found: /enviroments/.env
+[06/Dec/2023 09:54:34] "GET /enviroments/.env HTTP/1.1" 404 2817
+Not Found: /enviroments/.env
+[06/Dec/2023 09:54:35] "POST /enviroments/.env HTTP/1.1" 404 2818
+Not Found: /core/.env
+[06/Dec/2023 09:54:35] "GET /core/.env HTTP/1.1" 404 2796
+Not Found: /core/.env
+[06/Dec/2023 09:54:35] "POST /core/.env HTTP/1.1" 404 2797
+Not Found: /script/.env
+[06/Dec/2023 09:54:36] "GET /script/.env HTTP/1.1" 404 2802
+Not Found: /script/.env
+[06/Dec/2023 09:54:36] "POST /script/.env HTTP/1.1" 404 2803
+Not Found: /api/.env
+[06/Dec/2023 09:54:37] "GET /api/.env HTTP/1.1" 404 2793
+Not Found: /api/.env
+[06/Dec/2023 09:54:37] "POST /api/.env HTTP/1.1" 404 2794
+Not Found: /.env.project
+[06/Dec/2023 09:54:37] "GET /.env.project HTTP/1.1" 404 2805
+Not Found: /.env.project
+[06/Dec/2023 09:54:38] "POST /.env.project HTTP/1.1" 404 2806
+Not Found: /frontend_dev.php/$
+[06/Dec/2023 09:54:38] "GET /frontend_dev.php/$ HTTP/1.1" 404 2823
+Not Found: /debug/default/view
+[06/Dec/2023 09:54:38] "GET /debug/default/view?panel=config HTTP/1.1" 404 2836
+Not Found: /config.json
+[06/Dec/2023 09:54:39] "GET /config.json HTTP/1.1" 404 2802
+Not Found: /.json
+[06/Dec/2023 09:54:39] "GET /.json HTTP/1.1" 404 2784
+Not Found: /phpinfo.php
+[06/Dec/2023 09:54:40] "GET /phpinfo.php HTTP/1.1" 404 2802
+Not Found: /php.php
+[06/Dec/2023 09:54:40] "GET /php.php HTTP/1.1" 404 2790
+Not Found: /_phpinfo.php
+[06/Dec/2023 09:54:40] "GET /_phpinfo.php HTTP/1.1" 404 2805
+Not Found: /viewinfo.php
+[06/Dec/2023 09:54:41] "GET /viewinfo.php HTTP/1.1" 404 2805
+Not Found: /pinfo.php
+[06/Dec/2023 09:54:41] "GET /pinfo.php HTTP/1.1" 404 2796
+Not Found: /php_info.php
+[06/Dec/2023 09:54:41] "GET /php_info.php HTTP/1.1" 404 2805
+Not Found: /phpinfo
+[06/Dec/2023 09:54:42] "GET /phpinfo HTTP/1.1" 404 2790
+Not Found: /php-info.php
+[06/Dec/2023 09:54:42] "GET /php-info.php HTTP/1.1" 404 2805
+Not Found: /phpinformation
+[06/Dec/2023 09:54:43] "GET /phpinformation HTTP/1.1" 404 2811
+Not Found: /testphpinfo
+[06/Dec/2023 09:54:43] "GET /testphpinfo HTTP/1.1" 404 2802
+Not Found: /info/info.php
+[06/Dec/2023 09:54:43] "GET /info/info.php HTTP/1.1" 404 2808
+Not Found: /_profiler/phpinfo
+[06/Dec/2023 09:54:44] "GET /_profiler/phpinfo HTTP/1.1" 404 2820
+Not Found: /phptest.php
+[06/Dec/2023 09:54:44] "GET /phptest.php HTTP/1.1" 404 2802
+Not Found: /phpinfo/phpinfo.php
+[06/Dec/2023 09:54:44] "GET /phpinfo/phpinfo.php HTTP/1.1" 404 2826
+Not Found: /testphpinfo.php
+[06/Dec/2023 09:54:45] "GET /testphpinfo.php HTTP/1.1" 404 2814
+Not Found: /phpversion.php
+[06/Dec/2023 09:54:45] "GET /phpversion.php HTTP/1.1" 404 2811
+Not Found: /admin.php
+[06/Dec/2023 09:54:46] "GET /admin.php HTTP/1.1" 404 2796
+[06/Dec/2023 09:54:46] "GET /admin/phpinfo.php HTTP/1.1" 302 0
+Not Found: /scripts/phpinfo.php
+[06/Dec/2023 09:54:46] "GET /scripts/phpinfo.php HTTP/1.1" 404 2826
+Not Found: /information
+[06/Dec/2023 09:54:47] "GET /information HTTP/1.1" 404 2802
+Not Found: /infophp.php
+[06/Dec/2023 09:54:47] "GET /infophp.php HTTP/1.1" 404 2802
+Not Found: /info.php
+[06/Dec/2023 09:54:47] "GET /info.php HTTP/1.1" 404 2793
+Not Found: /info/phpinfo.php
+[06/Dec/2023 09:54:48] "GET /info/phpinfo.php HTTP/1.1" 404 2817
+Not Found: /information.php
+[06/Dec/2023 09:54:48] "GET /information.php HTTP/1.1" 404 2814
+Not Found: /PHPConf.php
+[06/Dec/2023 09:54:49] "GET /PHPConf.php HTTP/1.1" 404 2802

@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header.masthead {
+    background-color: #343a40; /* Dark background color */
+    padding: 80px 0;
+}
+
+div.masthead-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    color: black;
+    font-size: 24px;
+}
+
+h1 {
+    color: black;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Green submit button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Additional Styles */
+/* Add your additional styles here */

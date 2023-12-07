@@ -1,0 +1,131 @@
+
+{% load static %}
+{% block extrahead %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Django</title>
+    <meta charset="utf-8">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    <script src="{% static 'js/scripts.js'%}"></script>
+    <link rel="stylesheet" href="{% static 'gpt/style.css' %}">
+</head>
+
+<body id="page-top">
+    
+    {% include 'navbar.html' %}
+
+    <script>
+        let idNum = 0;
+    
+        function addFile() {
+            deepCopy();
+        }
+    
+        function deepCopy() {
+            const fileModule = document.getElementById('file-module-' + idNum);
+
+            const newNode = fileModule.cloneNode(true);
+    
+            idNum++;
+            newNode.id = 'file-module-' + idNum;
+
+            newNode.querySelector('input[type="file"]').value = '';
+    
+            newNode.querySelector('img').removeAttribute('src');
+    
+            fileModule.after(newNode);
+        }
+    
+        function previewImage(input) {
+            const file = input.files[0];
+            const img = input.parentElement.querySelector('img');
+    
+            if (file) {
+                const reader = new FileReader();
+    
+                reader.onload = function (e) {
+                    img.setAttribute('src', e.target.result);
+                };
+    
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+
+    {% endblock %}
+
+    <header class="masthead text-center text-white">
+        <div class="masthead-content"  style="min-height:600px;">
+            <h2 class="masthead-subheading mb-4">ChatGPT에게 수어로 질문하기</h2>
+            <p class = "mb-3">수어 사진을 차례대로 번역하고, ChatGPT에게 질문합니다.</p>
+            <div class="chat-container">
+                <form action="chat" method="post" enctype="multipart/form-data" >
+                    {% csrf_token %}
+                    <span class="file-module" id="file-module-0">
+                        <fieldset>
+                            <input class="mb-3" name="files" type="file" style="color: black;" onchange="previewImage(this)">
+                            <img src="" alt="이미지를 선택해주세요." style="max-width: 100%; max-height: 100px; margin-top: 10px; color: black;" >
+                        </fieldset>
+                    </span>
+                        <button onclick="addFile()" type="button" class="btn btn-primary btn-xl rounded-pill mb-3">파일 추가</button>
+                        <input class="btn btn-primary btn-xl rounded-pill" type="submit" value="ChatGPT에게 수어로 질문하기">
+                        <br><br>
+                        <div id="loading-indicator" class="mb-3">
+                            <div id="loading-bar"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        function showLoadingIndicator() {
+            document.getElementById('loading-indicator').style.display = 'block';
+        }
+    
+        const form = document.querySelector('form');
+    
+        form.addEventListener('submit', function (event) {
+            const fileInputs = document.querySelectorAll('input[type="file"]');
+            let hasFile = false;
+    
+            fileInputs.forEach(function (input) {
+                if (input.files.length > 0) {
+                    hasFile = true;
+                }
+            });
+    
+            if (hasFile) {
+                showLoadingIndicator();
+            } else {
+                event.preventDefault();
+                showErrorModal();
+            }
+        });
+    
+        function showErrorModal() {
+            alert('최소 한 장 이상 선택해 주세요.');
+        }
+    });
+</script>
+
+
+        <div class="bg-circle-1 bg-circle"></div>
+        <div class="bg-circle-2 bg-circle"></div>
+        <div class="bg-circle-3 bg-circle"></div>
+        <div class="bg-circle-4 bg-circle"></div>
+    </header>
+
+    {% include 'footer.html' %}
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+
