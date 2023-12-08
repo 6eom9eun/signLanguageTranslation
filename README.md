@@ -3,9 +3,14 @@
 - Framework : vscode, Django
 - Technology & Tools : mlflow, tensorflow, AWS
 
-![image](https://github.com/6eom9eun/AIVLE_miniProject_7/assets/104510730/109ad392-9a51-4726-9f17-4d745abfb322)
+---
 
+<details>
+    <summary>ML&DL</summary>
+  
+<img src="https://github.com/6eom9eun/AIVLE_miniProject_7/assets/104510730/109ad392-9a51-4726-9f17-4d745abfb322" width="800" height="400"/>
 
+</details>
 
 ---
 <details>
