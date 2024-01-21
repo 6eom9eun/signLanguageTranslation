@@ -50,8 +50,13 @@ AWS 서버 생성 (VPC, 서브넷, ec2 인스턴스) -> 배포
   
 ![KakaoTalk_20231207_171725968_03](https://github.com/6eom9eun/AIVLE_miniProject_7/assets/104510730/32d13fbd-2966-411d-b6ab-48c543b92bec)
 
+
+
 </details>
 
+--- 
+
+약 200명이 있는 30조 팀에서 인기투표 2등을 했다 !
 
 
 
