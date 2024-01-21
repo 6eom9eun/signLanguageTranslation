@@ -3,6 +3,10 @@
 - Framework : vscode, Django
 - Technology & Tools : mlflow, tensorflow, AWS
 
+ML Pipieline 구축 -> 서버 세팅 -> 웹 서비스 데모 구현
+
+AWS 서버 생성 (VPC, 서브넷, ec2 인스턴스) -> 배포
+
 ---
 
 <details>
