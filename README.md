@@ -10,8 +10,8 @@
 - Technology & Tools : mlflow, tensorflow, AWS
 
 
-서버 세팅 : AWS 서버 생성 (VPC, 서브넷, ec2 인스턴스) -> 배포<br>
-AWS 서버 생성 (VPC, 서브넷, ec2 인스턴스) -> 배포
+서버 세팅 : AWS 서버 생성 (VPC, 서브넷, ec2 인스턴스), 클라우드 환경 구축 -> 장고 배포<br>
+ML Pipeline 구축(Mlflow) -> 서버 세팅 -> 웹 서비스 데모 구현(ChatGPT API)
 
 
 
