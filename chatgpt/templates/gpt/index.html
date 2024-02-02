@@ -74,31 +74,32 @@
 
         <script>
             $(document).ready(function () {
-                $('form').submit(function (e) {
+                $('form').submit(async function (e) {  // 비동기
                     e.preventDefault(); 
                     var questionValue = $('#question').val().trim();
-
+            
                     if (questionValue === '') {
                         showError('입력된 메세지가 없습니다.');
                     } else {
                         showLoadingIndicator();
                         appendUserMessage(questionValue);
-                        $.ajax({
-                            type: 'POST',
-                            url: 'chat',
-                            data: {
-                                'question': questionValue,
-                                'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val()
-                            },
-                            success: function (data) {
-                                appendGPTMessage(data.result);
-                                hideLoadingIndicator();
-                            },
-                            error: function (xhr, textStatus, errorThrown) {
-                                showError('Error: ' + errorThrown);
-                                hideLoadingIndicator();
-                            }
-                        });
+            
+                        try {
+                            const response = await $.ajax({  // await를 사용하여 비동기 호출 wait
+                                type: 'POST',
+                                url: 'chat',
+                                data: {
+                                    'question': questionValue,
+                                    'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val()
+                                },
+                            });
+            
+                            appendGPTMessage(response.result);
+                            hideLoadingIndicator();
+                        } catch (error) {
+                            showError('Error: ' + error.statusText);
+                            hideLoadingIndicator();
+                        }
                     }
                 });
 
